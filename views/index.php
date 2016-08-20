@@ -26,7 +26,6 @@
             </td>
         </tr>
         <?php endforeach; ?>
-    <?php echo 'Kek';#phpinfo(); ?>
     </table>
     </div>
 </body>

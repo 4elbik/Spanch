@@ -1,10 +1,3 @@
-<?php
-
-if(isset($_COOKIE['admin'])) {
-    header('Location: /../admin/index.php');
-}
-
-?>
 <!DOCTYPE html>
 <html>
 <head>

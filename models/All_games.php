@@ -1,7 +1,6 @@
 <?php
 
 require_once __DIR__ . '/../functions/DB.php';
-require_once __DIR__ . '/../functions/is_user.php';
 
 function homepage_games()
 {
@@ -11,8 +10,6 @@ function homepage_games()
 
 function admin_panel_games()
 {
-    if (is_user()) {
-        $query = "SELECT * FROM games ORDER BY date";
-        return sql_query($query);
-    }
+    $query = "SELECT * FROM games ORDER BY date";
+    return sql_query($query);
 }
