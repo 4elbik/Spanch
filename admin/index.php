@@ -1,6 +1,9 @@
 <?php
 
-if(!isset($_COOKIE['admin'])) { //Администратор ли это? Если нет то:
+require_once __DIR__ . '/models/is_admin.php';
+
+
+if(!is_user()) { //Администратор ли это? Если нет то:
     include_once __DIR__ . '/../views/authorization.php';
 } else { //Ага, значит это точно он!
 
