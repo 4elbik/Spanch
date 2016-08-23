@@ -5,9 +5,7 @@
     <link rel="stylesheet" href="/views/style.css" />
 </head>
 <body>
-<form action="/models/add_edit.php" method="post">
-    <input type="submit" value="Добавить игру" />
-</form>
+<a href="?action=add">Добавить игру</a>
 <div class="content">
     <table border="1">
         <tr>
@@ -38,10 +36,10 @@
                     <?php echo $item['date']; ?>
                 </td>
                 <td>
-                    <a href="#">Редактировать</a>
+                    <a href="?id=<?php echo $item['id']; ?>&action=edit">Редактировать</a>
                 </td>
                 <td>
-                    <a href="#">Удалить</a>
+                    <a href="?id=<?php echo $item['id']; ?>&action=delete">Удалить</a>
                 </td>
         </tr>
             <?php endforeach; ?>

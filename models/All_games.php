@@ -10,6 +10,6 @@ function homepage_games()
 
 function admin_panel_games()
 {
-    $query = "SELECT * FROM games ORDER BY date";
+    $query = "SELECT id,img,title,description,date FROM games ORDER BY id DESC";
     return sql_query($query);
 }
