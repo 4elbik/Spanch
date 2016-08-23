@@ -19,10 +19,11 @@ if(!is_user()) { //Администратор ли это? Если нет то:
                 $items = one_game_info($id);
                 include __DIR__ . '/../views/one_game.php';
             } else {
-                $id = sql_query("SELECT max(id) as 'id' FROM games");
+                /*$id = sql_query("SELECT max(id) as 'id' FROM games");
                 $id = ++$id[0]['id'];
-                var_dump($id);
-                include __DIR__ . '/../views/add_game.php';
+                var_dump($id);*/
+                require_once __DIR__ . '/../models/add.php';
+                header('Location: /admin/index.php');
             }
 
         }
