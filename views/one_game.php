@@ -25,17 +25,13 @@
             <tr>
                 <th>Описание</th>
                 <td>
-                    <textarea>
-                        <?php echo $item['description']; ?>
-                    </textarea>
+                    <textarea name="description" rows="10" cols="45"><?php echo $item['description']; ?></textarea>
                 </td>
             </tr>
             <tr>
                 <th>Код для вставки на страницу</th>
                 <td>
-                    <pre><textarea>
-                    <?php echo $item['code']; ?>
-                    </textarea></pre>
+                    <pre><textarea name="code" rows="10" cols="45"><?php echo $item['code']; ?></textarea></pre>
                 </td>
             </tr>
             <tr>

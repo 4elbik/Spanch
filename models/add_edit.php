@@ -32,16 +32,14 @@ if (isset($_POST)) {
             edit_in('title', $_POST['title'], $id);
         }
     }
-    if (isset($_POST['description'])) {
-        // Тут должен быть не ПОСТ а что-то другое.. Должна быть обработка тега textarea
-        echo 'kek 3';
+    if (!empty($_POST['description'])) {
+        edit_in('description', $_POST['description'], $id);
     }
-    if (isset($_POST['code'])) {
-        // Тут должен быть не ПОСТ а что-то другое.. Должна быть обработка тега textarea
-        echo 'kek 4';
+    if (!empty($_POST['code'])) {
+        edit_in('code', $_POST['code'], $id);
     }
     if (isset($_POST['date'])) {
         //Обновление базы данных с полем даты публикации
-        edit_in('date', $_POST['date'],$id);
+        edit_in('date', $_POST['date'], $id);
     }
 }
