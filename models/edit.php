@@ -15,21 +15,11 @@ function one_game_info($id)
 if (isset($_POST)) {
     if (!empty($_FILES['game_img']['name'])) {
         //Обработка картинки и сохранение её на сервере
-        if ($_GET['action'] == 'add'){
-            //add_img($id);
-            echo 'No';
-        } else {
-            edit_img($id);
-        }
+        edit_img($id);
     }
     if (!empty($_POST['title'])) {
         //Обновление базы данных с полем название игры
-        if ($_GET['action'] == 'add'){
-            //add_in('title', $_POST['title']);
-            echo 'No';
-        } else {
-            edit_in('title', $_POST['title'], $id);
-        }
+        edit_in('title', $_POST['title'], $id);
     }
     if (!empty($_POST['description'])) {
         edit_in('description', $_POST['description'], $id);
