@@ -22,12 +22,6 @@ function sql_exec($query)
     mysql_query($query);
 }
 
-function add_in_db_img($name, $location, $id)
-{
-    $query = "INSERT INTO games(img) VALUES(" . "'" . $location . $name ."') WHERE id=" . $id;
-    sql_exec($query);
-}
-
 function edit_in_db_img($name, $location, $id)
 {
     $query = "UPDATE games SET img = " . "'" . $location . $name ."' WHERE id=" . $id;
