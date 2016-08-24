@@ -1,6 +1,5 @@
 <?php
 
-require_once __DIR__ . '/../functions/DB.php';
 require_once __DIR__ . '/../functions/add_edit_img.php';
 require_once __DIR__ . '/../functions/add_edit_else.php';
 
