@@ -27,14 +27,3 @@ function edit_img($id)
         edit_in_db_img('img'.$id.'.jpg', $location, $id);
     }
 }
-
-function add_img($id)
-{
-    is_loaded();
-
-    if (is_uploaded_file($_FILES['game_img']['tmp_name'])) {
-        $location = 'http://spanchbob.cqp/images/';
-        move_uploaded_file($_FILES['game_img']['tmp_name'], 'images/'.'img'.$id.'.jpg');
-        add_in_db_img('img'.$id.'.jpg', $location, $id);
-    }
-}

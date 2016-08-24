@@ -1,7 +1,7 @@
 <?php
 
-require_once __DIR__ . '/../functions/add_edit_img.php';
-require_once __DIR__ . '/../functions/add_edit_else.php';
+require_once __DIR__ . '/../functions/edit_img.php';
+require_once __DIR__ . '/../functions/edit_else.php';
 
 function one_game_info($id)
 {

@@ -12,7 +12,7 @@ if(!is_user()) { //Администратор ли это? Если нет то:
         $action = $_GET['action'];
         if ($action == 'edit') {
             $id = $_GET['id'];
-            require_once __DIR__ . '/../models/add_edit.php';
+            require_once __DIR__ . '/../models/edit.php';
             $items = one_game_info($id);
             include __DIR__ . '/../views/one_game.php';
         } elseif ($action == 'add') {
