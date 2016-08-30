@@ -28,3 +28,22 @@ function edit_in_db_img($name, $location, $id)
     sql_exec($query);
 }
 
+function select_one_view($id)
+{
+    $query = "SELECT views FROM images WHERE id=" . $id;
+    $result = mysql_query($query);
+    $row = mysql_fetch_assoc($result);
+    foreach ($row as $value) {
+        return $value;
+    }
+}
+
+function add_in_db_view($id)
+{
+    $count = select_one_view($id);
+    $count++;
+
+    $query = "UPDATE `images` SET `visited`=". $count . " WHERE `name`='" . $id . "'";
+    $result = mysql_query($query);
+}
+

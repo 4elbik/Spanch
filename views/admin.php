@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="/views/style.css" />
+    <link rel="stylesheet" href="/views/style1.css" />
 </head>
 <body>
 <a href="?action=add">Добавить игру</a>
@@ -31,6 +31,9 @@
                 </td>
                 <td>
                     <?php echo $item['description']; ?>
+                </td>
+                <td>
+                    <?php echo $item['marks']; ?>
                 </td>
                 <td>
                     <?php echo $item['date']; ?>
