@@ -51,11 +51,11 @@ for ($i = 0; $i < 6; $i++) {
         </div>
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
+                <img src="http://spanchbob.cqp/images/img31.jpg" width="311" height="250" align="left"/>
+                <h1>Приключения на вертолете</h1><hr />
+                <p>И снова ваших мониторах появляется знаменитый персонаж Губка Боб. В этой версии, ему предстоит научиться управлять новым транспортным средством - вертолетом. Ему необходимо пролететь по большому городу, преодолевая крыши здания и различные препятствия. Данная игра развивает ловкость и логическое мышление. Она состоит из нескольких уровней, с различной сложностью. В интереснейшую игру можно сыграть абсолютно бесплатно и без предварительной регистрации. Во время игры, следует также ловить бонусы. Управление осуществляется стрелочками на клавиатуре.</p><hr />
                 <div class="game_window">
-                    <!-- Код игры -->
+                    <object type="application/x-shockwave-flash" data="http://games.gahegames.com/1/Spongebob-Helicopter.swf?1" width="725" height="545"><param name="movie" value="http://games.gahegames.com/1/Spongebob-Helicopter.swf"><param name="quality" value="high"><param name="wmode" value="opaque"><param name="allowNetworking" value="internal"><param name="AllowScriptAccess" value="always"></object>
                 </div>
             </div><hr />
             <div class="more_games">

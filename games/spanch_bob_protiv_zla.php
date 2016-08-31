@@ -34,28 +34,13 @@ for ($i = 0; $i < 6; $i++) {
         <a href="/"><img src="http://spanchbob.cqp/images/5.png" /></a>
     </div>
     <div class="content">
-        <div class="nav">
-            <p>ЖАНРЫ</p><hr />
-            <p><a href="/">ВСЕ ИГРЫ</a></p>
-        </div>
-        <div class="top5">
-            <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
-            <?php foreach ($tops as $top): ?>
-                <p><a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" width="188" height="140" />
-                        <?php echo $top['title']; ?></a>
-                </p>
-            <?php endforeach; ?>
-        </div>
-        <div class="adv">
-            <!-- Рекламный блок -->
-        </div>
         <div class="main">
-            <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
-                <div class="game_window">
-                    <!-- Код игры -->
+            <div class="one_game" style="width: 925px;">
+                <img src="http://spanchbob.cqp/images/img13.jpg" width="311" height="250" align="left"/>
+                <h1>Спанч Боб против зла</h1><hr />
+                <p>Непростая задача стоит перед главными героями игры Спанч Боб против зла. Известный всем смелый и отважный Губка Боб со своими друзьями отправились в старинный заколдованный замок, полон привидений и основная их задача расправиться со всей нечистью, которая тут живет. Вам придется бродить по нескольким этажам замка, открывать множество запертых дверей, разгадывать тайны и головоломки замка. И все это лишь для того, чтоб очистить это старинное место от привидений. В вашем распоряжении будет специальное оружие для ловли привидений и колба для их сбора. Одевайте защитный скафандр и вперед, на охоту за нечистью. Не думайте, что играть будет легко, так как в любой момент на вас из-за угла может напасть злое чудище. Не бойтесь его, ловите и продолжайте выполнение этой непростой миссии. Играйте в игру Спанч Боб против зла и победите все зло, живущее в старинном замке.</p><hr />
+                <div class="game_window" style="margin-left: -20px;">
+                    <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/nickelodeon/nickelodeon-mystery-mansion/nick_nicktoons_mystery_mansion.swf?wmodeOverride=direct&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fnickelodeon%2Fnickelodeon-mystery-mansion%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="960" height="560" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/nickelodeon/nickelodeon-mystery-mansion/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="wmodeOverride=direct&amp;base=http://www.nick.com/games/data/nickelodeon/nickelodeon-mystery-mansion/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
             <div class="more_games">

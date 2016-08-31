@@ -51,11 +51,11 @@ for ($i = 0; $i < 6; $i++) {
         </div>
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
+                <img src="http://spanchbob.cqp/images/img24.jpg" width="311" height="250" align="left"/>
+                <h1>Губка Боб мыльные пузыри</h1><hr />
+                <p>Новая версия игры с популярным героем Губка Боб квадратные штаны отлично тренирует ловкость. В этот раз герой представлен в солидном виде, с прекрасным галстуком на шее. В комнате появляется множество мыльных пузырей. Цель игры - это лопнуть как можно за все испытания. Это осуществляется при помощи нажатия левой кнопки мыши. Игра состоит из нескольких этапов, с повышенным уровнем сложности. С каждым разом появляется одновременно больше мыльных пузырей и они набирают максимальную скорость. Необходимо развивать ловкость и скорость, стараясь лопнуть, как можно больше пузырей.  Это игра отлично воздействует на внимательность.</p><hr />
                 <div class="game_window">
-                    <!-- Код игры -->
+                    <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/sb_bubblebust/bubblebust18.swf?adloader=true&amp;wmodeOverride=direct&amp;data=%2Fgames%2Fdata%2Fgame_bps.jhtml&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fsb_bubblebust%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="725" height="483" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/sb_bubblebust/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;wmodeOverride=direct&amp;data=/games/data/game_bps.jhtml&amp;base=http://www.nick.com/games/data/spongebob/sb_bubblebust/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
             <div class="more_games">

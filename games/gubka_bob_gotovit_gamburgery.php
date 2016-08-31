@@ -51,11 +51,12 @@ for ($i = 0; $i < 6; $i++) {
         </div>
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
+                <img src="http://spanchbob.cqp/images/img11.jpg" width="311" height="250" align="left"/>
+                <h1>Губка Боб готовит гамбургеры</h1><hr />
+                <p>Ребятки, а вы знали, что у главного героя игры есть собственный цех по изготовлению вкусных гамбургеров и в нем Губка Боб проводит очень много времени. Но его злейший враг смог пробраться в этот цех и пытается любыми силами остановить производство.
+                    В игре Спанч Боб готовит гамбургеры вы должны будете наблюдать, контролировать и при необходимости включать оборудование цеха для того, чтоб не останавливалось приготовление гамбургеров. Как только противник будет выключать кнопки аппаратов, вы должны будете немедленно их включить. И как только вы сможете приготовить заданное количество гамбургеров, уровень будет пройден. Помогите главному герою, пройдите все уровни игры и спеките как можно больше лакомств, которые очень любит Губка Боб. Вперед, за дело друзья, медлить нельзя!  </p><hr />
                 <div class="game_window">
-                    <!-- Код игры -->
+                    <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/sb_krabo/krab-o-matic3000.swf?adloader=true&amp;gameName=Fun+Game+Title&amp;game_path=%2Fgames%2Fdata%2Fspongebob%2Fsb_krabo%2Fkrab-o-matic3000.swf&amp;gameURI=%2Fgames%2Fdata%2Fspongebob%2Fsb_krabo%2Fkrab-o-matic3000.swf&amp;adfree=false" width="725" height="604" id="game-play-container" style="visibility: visible;"><param name="wmode" value="transparent"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;gameName=Fun Game Title&amp;game_path=/games/data/spongebob/sb_krabo/krab-o-matic3000.swf&amp;gameURI=/games/data/spongebob/sb_krabo/krab-o-matic3000.swf&amp;adfree=false"></object>
                 </div>
             </div><hr />
             <div class="more_games">

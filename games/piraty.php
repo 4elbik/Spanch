@@ -51,11 +51,12 @@ for ($i = 0; $i < 6; $i++) {
         </div>
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
+                <img src="http://spanchbob.cqp/images/img14.jpg" width="311" height="250" align="left"/>
+                <h1>Пираты</h1><hr />
+                <p>Губка Боб пираты - это одна из лучших игр со Спанч Бобом и играть в нее вам обязательно понравится, так как вас ждет непростая битва на просторах морей и океанов. Играйте хитро и  расставляйте свои боевые корабли так, чтоб их не мог найти противник. В качестве подводных мин в игре Губка Боб пираты будут использоваться медузы и количество их строго ограничено.
+                    Для того, чтоб начать - нужно совершить одно действие - нажать кнопку старт, выбрать цвет медуз для атаки, расставить свои корабли на игровом поле и начать эту непростую баталию. Победителем станет тот игрок, который первым сможет отыскать все корабли противника на игровом поле и уничтожить их. Игра вам обязательно понравится и для того, чтоб вам было интересней, предложите сразиться лучшего друга и тогда вы узнаете, кто хитрей и кто сильней в этом пиратском мире. Губка Боб пираты вам обязательно понравится!</p><hr />
                 <div class="game_window">
-                    <!-- Код игры -->
+                    <object type="application/x-shockwave-flash" data="http://games.gahegames.com/1/Sponge-Bob-Square-Pants-Spongeseeker.swf?1" width="725" height="484"><param name="movie" value="http://games.gahegames.com/1/Sponge-Bob-Square-Pants-Spongeseeker.swf?1"><param name="quality" value="high"><param name="wmode" value="opaque"><param name="allowNetworking" value="internal"><param name="AllowScriptAccess" value="always"><!--<![endif]--><!--[if !IE]>--></object>
                 </div>
             </div><hr />
             <div class="more_games">

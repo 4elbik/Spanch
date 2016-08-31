@@ -51,11 +51,22 @@ for ($i = 0; $i < 6; $i++) {
         </div>
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
+                <img src="http://spanchbob.cqp/images/img10.jpg" width="311" height="250" align="left"/>
+                <h1>Лучник</h1><hr />
+                <p>В мире Спанч Боба скоро начнутся соревнования по стрельбе из лука и главный приз получит тот герой, который сможет подстрелить как можно больше воздушных шариков. Внимательно ознакомьтесь с управлением игры и сделайте все возможное, чтоб Губка Боб выиграл эти соревнования.
+                    Как только Патрик будет выпускать в небо воздушный шар, с помощью клавиш стрелок и пробела вы должны направить лук так, чтоб стрела попала точно в шар. После того, как вы научите главного героя метко стрелять, он обязательно сможет выиграть этот непростой турнир, а для него это очень важно, ведь это Губка Боб квадратные штаны, любимец всех детей. И именно он должен быть лидером и победителем во всех турнирах.
+                    Не теряйте время, запускайте игру Губка Боб супер лучник и стреляйте по воздушным шарам метко. Удачи вам в турнире.  </p><hr />
                 <div class="game_window">
-                    <!-- Код игры -->
+                    <object class="game-object" type="application/x-shockwave-flash" data="http://freeonlinegames.com.free-game.us/shooting/mi9-19145/spongebob-super-archer.swf" width="725" height="527">
+                        <param name="quality" value="high">
+                        <param name="allowScriptAccess" value="always">
+                        <param name="swliveconnect" value="true">
+                        <param value="http://freeonlinegames.com.free-game.us/shooting/mi9-19145/" name="base">
+                        <param value="direct" name="wmode">
+                        <param name="menu" value="false">
+                        <param name="allownetworking" value="internal">
+                        <param name="flashvars" value="">
+                    </object>
                 </div>
             </div><hr />
             <div class="more_games">

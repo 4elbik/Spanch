@@ -51,11 +51,12 @@ for ($i = 0; $i < 6; $i++) {
         </div>
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
+                <img src="http://spanchbob.cqp/images/img15.jpg" width="311" height="250" align="left"/>
+                <h1>Бейсбол</h1><hr />
+                <p>И вот он, известный во всем мире Губка Боб, на спортивной арене. Главный герой игры решил устроить настоящие соревнования по бейсболу и пригласил для этого лучших друзей: Патрика Стар и Сэнди Чикс. Немного потренировавшись, спортсмены взяли в руки свои биты с мячиками и вышли на игровое поле, а ведь спортивный инвентарь у них довольно необычный.
+                    Для того, чтоб начать игру, выбирайте того персонажа, с которым захотите играть и сразиться против своих противников. Поочередно вы будете играть питчером и кетчером, подавать мяч и отбивать его. Ваша основная задача подать мячик так, чтоб его не мог отбить противник. И наоборот, если подача будет на вас, то отбить как можно точней и сильней. Прикол игры Спанч Боб бейсбол заключается в том, что у игроков будут необычные биты и мячики, и играть в эту игру будет намного интересней. Не теряйте время, разминайтесь, и вперед, за победами!</p><hr />
                 <div class="game_window">
-                    <!-- Код игры -->
+                    <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/sb_slammin/main.swf?adloader=true&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fsb_slammin%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="725" height="483" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/sb_slammin/"><param name="wmode" value="transparent"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;base=http://www.nick.com/games/data/spongebob/sb_slammin/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
             <div class="more_games">

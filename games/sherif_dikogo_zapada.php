@@ -51,11 +51,11 @@ for ($i = 0; $i < 6; $i++) {
         </div>
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
+                <img src="http://spanchbob.cqp/images/img27.jpg" width="311" height="250" align="left"/>
+                <h1>Шериф Дикого Запада</h1><hr />
+                <p>В этой игре, вы сможете почувствовать себя настоящим воином. На этот раз, ему предстоит оседлать ни кого-то, а самого настоящего, страшного дракона. Губка Боб представлен в новом образе - западного шерифа. В его руках длинный кнут. Именно им он и должен захватить своего врага. Движение дракона осуществляется за счет перемещения мыши. Кнутом же можно делать движение, нажав на левую кнопку мыши. Следует правильно изменять скорость движения, и регулировать размах кнута. Чем больше захватите врагов, тем больше начисляется за это очков. Мини игра отлично развивает моторику, логику и ловкость</p><hr />
                 <div class="game_window">
-                    <!-- Код игры -->
+                    <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/sb_pest/PestOfTheWest.swf?adloader=true&amp;wmodeOverride=direct&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fsb_pest%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="725" height="363" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/sb_pest/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;wmodeOverride=direct&amp;base=http://www.nick.com/games/data/spongebob/sb_pest/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
             <div class="more_games">

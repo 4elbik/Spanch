@@ -51,11 +51,11 @@ for ($i = 0; $i < 6; $i++) {
         </div>
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
+                <img src="http://spanchbob.cqp/images/img16.jpg" width="311" height="250" align="left"/>
+                <h1>Подводные приключения</h1><hr />
+                <p>Для любителей игры "три в ряд", появилась новая аркада! На экране появляются герои из любимого мультфильмы Губка боб. Необходимо проявить внимательность и собрать три или более персонажей в один ряд. После чего, они исчезают и появляются новые. За правильно собранный ряд даются очки. Чем больше их наберешь, тем лучше. Игра состоит из нескольких уровней, каждый с повышенной сложностью. Увлекательная игра сопровождается красивыми картинками, с изображением подводного мира. Она отлично тренирует память и внимательность. Музыкальное сопровождение позволяет сделать испытания максимально веселыми и интересными!</p><hr />
                 <div class="game_window">
-                    <!-- Код игры -->
+                    <object type="application/x-shockwave-flash" id="FlashGameObject" data="http://games.myplayyard.com/content/games/63235-spongebob-underwater-fun.swf" width="710" height="600"><param name="allowScriptAccess" value="always"></object>
                 </div>
             </div><hr />
             <div class="more_games">

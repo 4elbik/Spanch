@@ -51,11 +51,11 @@ for ($i = 0; $i < 6; $i++) {
         </div>
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
+                <img src="http://spanchbob.cqp/images/img29.jpg" width="311" height="250" align="left"/>
+                <h1>В поисках Гери</h1><hr />
+                <p>Это увлекательная и веселая игра для всей семьи. Она доступна каждому, как малышу, так и взрослому человеку. Игра состоит из нескольких уровней с повышенной сложностью. На этот раз главному персонажу предстоит научиться пользоваться ракеткой. К ней привязан яркий шарик. При помощи этого шарика следует уничтожить вредителя. Управление осуществляется левой кнопкой мыши. На экране меню изображена улитка, она показывает игроку, сколько различных испытаний ему необходимо пройти. Игра сопровождается веселыми звуками и музыкой. На экране появляется красочная картинка, на которой изображены все друзья Губки Боба.</p><hr />
                 <div class="game_window">
-                    <!-- Код игры -->
+                    <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/sb_trailsnail/TrailForSnail.swf?adloader=true&amp;wmodeOverride=direct&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fsb_trailsnail%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="725" height="483" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/sb_trailsnail/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;wmodeOverride=direct&amp;base=http://www.nick.com/games/data/spongebob/sb_trailsnail/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
             <div class="more_games">

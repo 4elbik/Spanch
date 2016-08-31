@@ -13,7 +13,7 @@ require_once __DIR__ . '/../functions/DB.php';
 <body>
 <div id="background">
     <div class="logo">
-        <a href="/"><img src="http://spanchbob.cqp/images/<?php echo rand(4,5); ?>.png" /></a>
+        <a href="/"><img src="http://spanchbob.cqp/images/5.png" /></a>
     </div>
     <div class="content">
         <div class="nav">

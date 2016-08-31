@@ -51,11 +51,12 @@ for ($i = 0; $i < 6; $i++) {
         </div>
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
+                <img src="http://spanchbob.cqp/images/img9.jpg" width="311" height="250" align="left"/>
+                <h1>Призрачный корабль</h1><hr />
+                <p>Как всегда, главному герою игры, любимому всеми персонажу не сидится на месте, он вечно ищет приключений. И в данной игре ему удалось пробраться в такое место, где царит мистика, и живут привидения пиратов. Это настоящий пиратский корабль, представляете, как тут может быть страшно?
+                    Отправляйтесь в путешествие вместе с главным героем и помогите расправиться со всеми привидениями, которые живут на корабле много лет. Но сделать это непросто, ведь для защиты и атаки у Спанч Боба очень мало предметов, да и сделать это можно лишь до того времени, пока в затопленном корабле есть вода. Используйте все, что попадется вам под руки, напугайте и заставьте уйти всех привидений и пройдите все уровни этой увлекательной игры Губка Боб на старом корабле. Выбирайте уровень сложности, нажимайте кнопку старт и за дело, вас ждут великие дела и множество увлекательных уровней вместе с главным персонажем и привидениями, живущими на корабле!</p><hr />
                 <div class="game_window">
-                    <!-- Код игры -->
+                    <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/sb_ship/ship_o_ghouls.swf?wmodeOverride=direct&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fsb_ship%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="725" height="363" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/sb_ship/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="wmodeOverride=direct&amp;base=http://www.nick.com/games/data/spongebob/sb_ship/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
             <div class="more_games">

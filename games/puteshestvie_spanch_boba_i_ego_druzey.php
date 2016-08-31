@@ -51,11 +51,11 @@ for ($i = 0; $i < 6; $i++) {
         </div>
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
+                <img src="http://spanchbob.cqp/images/img21.jpg" width="311" height="250" align="left"/>
+                <h1>Путешествие Спанч Боба и его друзей</h1><hr />
+                <p>Ура! Губка Боб отправляется в путешествие. Он готов открыть себя для новых городов и стран. На красочном автобусе он может посетить множество интересных мест. Управляя транспортом, вы можете помочь ему решить эту задачу. Как всегда, на его пути встречаются препятствия, которые нужно преодолеть. Чем больше их получится объехать, тем больше начисляется очков. Такой игрой удобно управлять, при помощи девой кнопки мыши и стрелочек на клавиатуре. Очень красочная и интересная игра, состоит из нескольких уровней, проходя их, можно изучить множество новых мест.</p><hr />
                 <div class="game_window">
-                    <!-- Код игры -->
+                    <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/sb_atlantis/SpongeBob_AtlantisSquarepants.swf?adloader=true&amp;wmodeOverride=direct&amp;gameName=Fun+Game+Title&amp;gameURI=%2Fgames%2Fdata%2Floaders%2Fhi_score_proxy_600x400_v8.swf&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fsb_atlantis%2F&amp;adfree=false" width="725" height="483" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/sb_atlantis/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;wmodeOverride=direct&amp;gameName=Fun Game Title&amp;gameURI=/games/data/loaders/hi_score_proxy_600x400_v8.swf&amp;base=http://www.nick.com/games/data/spongebob/sb_atlantis/&amp;adfree=false"></object>
                 </div>
             </div><hr />
             <div class="more_games">

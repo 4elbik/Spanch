@@ -34,28 +34,13 @@ for ($i = 0; $i < 6; $i++) {
         <a href="/"><img src="http://spanchbob.cqp/images/5.png" /></a>
     </div>
     <div class="content">
-        <div class="nav">
-            <p>ЖАНРЫ</p><hr />
-            <p><a href="/">ВСЕ ИГРЫ</a></p>
-        </div>
-        <div class="top5">
-            <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
-            <?php foreach ($tops as $top): ?>
-                <p><a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" width="188" height="140" />
-                        <?php echo $top['title']; ?></a>
-                </p>
-            <?php endforeach; ?>
-        </div>
-        <div class="adv">
-            <!-- Рекламный блок -->
-        </div>
         <div class="main">
-            <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
-                <h1>Название игры</h1><hr />
-                <p>Описание</p><hr />
-                <div class="game_window">
-                    <!-- Код игры -->
+            <div class="one_game" style="width: 925px;">
+                <img src="http://spanchbob.cqp/images/img17.jpg" width="311" height="250" align="left"/>
+                <h1>Каменный замок II</h1><hr />
+                <p>В каждой игре Губке Бобу предстоит пройти сложнейшие испытание. Не исключением стала и эта версия. Главному герою необходимо попасть в огромный замок, но это не так просто сделать, перед ним стоит мощная дверь. На пути к ней появляются бдительные охранники замка, которые не позволяют пройти персонажу в замок. Губке бобу предстоит избавиться от назойливых охранников и добраться до вершины замка. В этом ему поможет защитный шлем, хитрость и сила. Игра невероятно увлекательная и проста в управлении. С ней может справиться маленький ребенок, но и взрослому будет интересно пройти испытания. Темные картинки и характерное музыкальное сопровождение позволяют передать всю насыщенность игры.</p><hr />
+                <div class="game_window" style="margin-left: -20px;">
+                    <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/nick-assets/games/swfs/wrapper_10.swf?gameSwf=/games/data/spongebob/spongebob-castle-challenge-the-escape/spongebob_warsnail_loader.swf&amp;gameSwfProtected=true&amp;?adloader=true&amp;config=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fspongebob-castle-challenge-the-escape%2Fxml%2Fconfig.xml&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fspongebob-castle-challenge-the-escape%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="960" height="500" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/spongebob-castle-challenge-the-escape/"><param name="wmode" value="transparent"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;config=http://www.nick.com/games/data/spongebob/spongebob-castle-challenge-the-escape/xml/config.xml&amp;base=http://www.nick.com/games/data/spongebob/spongebob-castle-challenge-the-escape/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
             <div class="more_games">
