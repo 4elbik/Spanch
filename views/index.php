@@ -36,7 +36,7 @@ require_once __DIR__ . '/../functions/DB.php';
         </div>
         <div class="main">
             <div class="popular_games">
-                <a href="http://spanchbob.cqp/games/spanch_bob_big_adv.php">
+                <a href="http://spanchbob.cqp/games/spanch_bob_bolshie_priklyucheniya.php">
                     <img src="http://spanchbob.cqp/images/popular_game_1.jpg" width="593" />
                     <div class="popular_games_text">
                         <strong>СПАНЧ БОБ<hr /> <span class="next_str">"БОЛЬШИЕ ПРИКЛЮЧЕНИЯ"</span></strong>

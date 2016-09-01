@@ -28,6 +28,12 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
+    <style type="text/css">
+        .game {
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
 <body>
 <div id="background">
