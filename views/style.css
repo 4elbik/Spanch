@@ -8,7 +8,7 @@ body {
 }
 
 #background {
-    background: url('http://spanchbob.cqp/images/background-lilies.png') space;
+    background: url('http://spanchbob.cqp/images/background-lilies1.png') space;
 }
 
 .logo {
@@ -217,6 +217,10 @@ strong hr {
     width: 728px;
     margin: auto;
     margin-bottom: 20px;
+}
+
+iframe {
+    border: 0px;
 }
 
 .more_games {

@@ -2,6 +2,7 @@
 require_once __DIR__ . '/../models/All_games.php';
 require_once __DIR__ . '/../functions/translit.php';
 
+add_in_db_view('Боулинг в Бикини Боттом');
 
 $tops = top_games();
 $all_games = homepage_games();

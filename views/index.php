@@ -36,7 +36,7 @@ require_once __DIR__ . '/../functions/DB.php';
         </div>
         <div class="main">
             <div class="popular_games">
-                <a href="http://spanchbob.cqp/games/spanch_bob_big_adv.html">
+                <a href="http://spanchbob.cqp/games/spanch_bob_big_adv.php">
                     <img src="http://spanchbob.cqp/images/popular_game_1.jpg" width="593" />
                     <div class="popular_games_text">
                         <strong>СПАНЧ БОБ<hr /> <span class="next_str">"БОЛЬШИЕ ПРИКЛЮЧЕНИЯ"</span></strong>
@@ -49,7 +49,7 @@ require_once __DIR__ . '/../functions/DB.php';
             </div>
             <?php foreach ($items as $item): ?>
             <div class="game">
-                <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" alt="Игра спанч боб играть. Игры спанч боб бесплатно. Игры спанч боб играть бесплатно. Играть в Спанч Боб - <?php echo $item['title']; ?>. Спанч боб игры онлайн" /><h2><?php echo $item['title']; ?></h2></a><hr />
                 <p><?php echo $item['little_description']; ?></p>
             </div>
             <?php endforeach; ?>

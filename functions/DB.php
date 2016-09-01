@@ -24,13 +24,15 @@ function sql_exec($query)
 
 function edit_in_db_img($name, $location, $id)
 {
+    connect_db();
     $query = "UPDATE games SET img = " . "'" . $location . $name ."' WHERE id=" . $id;
     sql_exec($query);
 }
 
-function select_one_view($id)
+function select_one_view($title)
 {
-    $query = "SELECT views FROM images WHERE id=" . $id;
+    connect_db();
+    $query = "SELECT views FROM games WHERE title='" . $title . "'";
     $result = mysql_query($query);
     $row = mysql_fetch_assoc($result);
     foreach ($row as $value) {
@@ -38,12 +40,12 @@ function select_one_view($id)
     }
 }
 
-function add_in_db_view($id)
+function add_in_db_view($title)
 {
-    $count = select_one_view($id);
+    $count = select_one_view($title);
     $count++;
 
-    $query = "UPDATE `images` SET `visited`=". $count . " WHERE `name`='" . $id . "'";
+    $query = "UPDATE `games` SET `views`=". $count . " WHERE `title`='" . $title . "'";
     $result = mysql_query($query);
 }
 
