@@ -41,7 +41,7 @@ for ($i = 0; $i < 6; $i++) {
     <div class="content">
         <div class="main">
             <div class="one_game" style="width: 925px;">
-                <img src="http://spanchbob.cqp/images/img4.jpg" width="311" height="250" align="left"/>
+                <img src="http://spanchbob.cqp/images/big_adv.png" width="311" height="250" align="left" />
                 <h1>Спанч Боб большие приключения</h1><hr />
                 <p>Описание</p><hr />
                 <div class="game_window" style="margin-left: -20px;">

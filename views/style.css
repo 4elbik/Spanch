@@ -73,6 +73,11 @@ a {
     margin-top: 20px;
 }
 
+.top5 img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #777;
+}
+
 .gubka {
     background-image: url('http://spanchbob.cqp/images/sponge-bob.png');
     background-repeat: no-repeat;
@@ -160,6 +165,7 @@ strong hr {
 
 .game img {
     margin-right: 10px;
+    border-radius: 5px;
     box-shadow: 5px 5px 15px #777;
 }
 
@@ -196,6 +202,8 @@ strong hr {
     margin-top: 10px;
     margin-right: 7px;
     margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px #777;
 }
 
 .one_game h1 {
