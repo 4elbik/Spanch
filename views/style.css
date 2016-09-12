@@ -38,6 +38,10 @@ body {
     background: linear-gradient(to top, #fefcea, #f7e24e);
 }
 
+.left-panel {
+    width: 200px;
+    float: left;
+}
 
 .nav {
     font-family: cursive;

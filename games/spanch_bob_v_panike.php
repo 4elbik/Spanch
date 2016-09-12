@@ -41,20 +41,25 @@ for ($i = 0; $i < 6; $i++) {
         <a href="/"><img src="http://spanchbob.cqp/images/5.png" /></a>
     </div>
     <div class="content">
-        <div class="nav">
-            <p>ЖАНРЫ</p><hr />
-            <p><a href="/">ВСЕ ИГРЫ</a></p>
-        </div>
-        <div class="top5">
-            <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
-            <?php foreach ($tops as $top): ?>
-                <p><a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" width="188" height="140" />
-                        <?php echo $top['title']; ?></a>
-                </p>
-            <?php endforeach; ?>
-        </div>
-        <div class="adv">
-            <!-- Рекламный блок -->
+        <div class="left-panel">
+            <div class="nav">
+                <p>ЖАНРЫ</p><hr />
+                <p><a href="/">ВСЕ ИГРЫ</a></p>
+            </div>
+            <div class="top5">
+                <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
+                <?php foreach($tops as $top): ?>
+                    <p><a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" width="188" height="140" />
+                            <?php echo $top['title']; ?></a>
+                    </p>
+                <?php endforeach; ?>
+            </div>
+            <div class="adv">
+                <!-- Рекламный блок -->
+            </div>
+            <div class="gubka">
+                <!-- Губка -->
+            </div>
         </div>
         <div class="main">
             <div class="one_game">

@@ -8,6 +8,7 @@ require_once __DIR__ . '/../functions/DB.php';
 <html>
 <head>
     <meta charset="utf-8" />
+    <title>Игры Спанч Боб | Игры Боб | Играть Губка Боб | Флеш игры Губка Боб</title>
     <link rel="stylesheet" href="/views/style.css" type="text/css" />
 </head>
 <body>
@@ -16,23 +17,25 @@ require_once __DIR__ . '/../functions/DB.php';
         <a href="/"><img src="http://spanchbob.cqp/images/5.png" /></a>
     </div>
     <div class="content">
-        <div class="nav">
-            <p>ЖАНРЫ</p><hr />
-            <p><a href="/">ВСЕ ИГРЫ</a></p>
-        </div>
-        <div class="top5">
-            <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
-            <?php foreach($tops as $top): ?>
-                <p><a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" width="188" height="140" />
-                    <?php echo $top['title']; ?></a>
-                </p>
-            <?php endforeach; ?>
-        </div>
-        <div class="adv">
-            <!-- Рекламный блок -->
-        </div>
-        <div class="gubka">
-            <!-- Губка -->
+        <div class="left-panel">
+            <div class="nav">
+                <p>ЖАНРЫ</p><hr />
+                <p><a href="/">ВСЕ ИГРЫ</a></p>
+            </div>
+            <div class="top5">
+                <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
+                <?php foreach($tops as $top): ?>
+                    <p><a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" width="188" height="140" />
+                            <?php echo $top['title']; ?></a>
+                    </p>
+                <?php endforeach; ?>
+            </div>
+            <div class="adv">
+                <!-- Рекламный блок -->
+            </div>
+            <div class="gubka">
+                <!-- Губка -->
+            </div>
         </div>
         <div class="main">
             <div class="popular_games">
@@ -49,7 +52,7 @@ require_once __DIR__ . '/../functions/DB.php';
             </div>
             <?php foreach ($items as $item): ?>
             <div class="game">
-                <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" alt="Игра спанч боб играть. Игры спанч боб бесплатно. Игры спанч боб играть бесплатно. Играть в Спанч Боб - <?php echo $item['title']; ?>. Спанч боб игры онлайн" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" /><h2><?php echo $item['title']; ?></h2></a><hr />
                 <p><?php echo $item['little_description']; ?></p>
             </div>
             <?php endforeach; ?>
