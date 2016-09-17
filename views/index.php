@@ -18,6 +18,7 @@ require_once __DIR__ . '/../functions/DB.php';
         <a href="/"><img src="http://spanchbob.cqp/images/<?php echo rand(5,6); ?>.png" /></a>
     </div>
     <div class="content">
+        <!-- <noindex> -->
         <div class="left-panel">
             <div class="nav">
                 <p>ЖАНРЫ</p><hr />
@@ -38,6 +39,7 @@ require_once __DIR__ . '/../functions/DB.php';
                 <!-- Губка -->
             </div>
         </div>
+        <!-- </noindex> -->
         <div class="main">
             <div class="popular_games">
                 <a href="http://spanchbob.cqp/games/spanch_bob_bolshie_priklyucheniya.php">
