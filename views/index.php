@@ -10,11 +10,12 @@ require_once __DIR__ . '/../functions/DB.php';
     <meta charset="utf-8" />
     <title>Игры Спанч Боб | Игры Боб | Играть Губка Боб | Флеш игры Губка Боб</title>
     <link rel="stylesheet" href="/views/style.css" type="text/css" />
+    <link rel="shortcut icon" href="http://spanchbob.cqp/favicon2.2.png" type="image/x-icon">
 </head>
 <body>
 <div id="background">
     <div class="logo">
-        <a href="/"><img src="http://spanchbob.cqp/images/5.png" /></a>
+        <a href="/"><img src="http://spanchbob.cqp/images/<?php echo rand(5,6); ?>.png" /></a>
     </div>
     <div class="content">
         <div class="left-panel">

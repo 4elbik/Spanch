@@ -48,7 +48,10 @@ for ($i = 0; $i < 6; $i++) {
             </div>
             <div class="top5">
                 <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
-                <?php foreach($tops as $top): ?>
+
+                <div class="gubka">
+                    <!-- Губка -->
+                </div>                <?php foreach($tops as $top): ?>
                     <p><a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" width="188" height="140" />
                             <?php echo $top['title']; ?></a>
                     </p>
@@ -56,9 +59,6 @@ for ($i = 0; $i < 6; $i++) {
             </div>
             <div class="adv">
                 <!-- Рекламный блок -->
-            </div>
-            <div class="gubka">
-                <!-- Губка -->
             </div>
         </div>
         <div class="main">

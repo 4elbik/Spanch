@@ -57,9 +57,6 @@ for ($i = 0; $i < 6; $i++) {
             <div class="adv">
                 <!-- Рекламный блок -->
             </div>
-            <div class="gubka">
-                <!-- Губка -->
-            </div>
         </div>
         <div class="main">
             <div class="one_game">
