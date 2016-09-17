@@ -27,6 +27,7 @@ for ($i = 0; $i < 6; $i++) {
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="robots" content="nofollow"/>
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {
@@ -41,7 +42,6 @@ for ($i = 0; $i < 6; $i++) {
         <a href="/"><img src="http://spanchbob.cqp/images/5.png" /></a>
     </div>
     <div class="content">
-
         <div class="main">
             <div class="one_game" style="width: 950px;">
                 <img src="http://spanchbob.cqp/images/img2.jpg" width="311" height="250" align="left"/>
@@ -51,6 +51,7 @@ for ($i = 0; $i < 6; $i++) {
                     <iframe src="http://kdata1.com/2015/12/spongebob_squarepants_cardbored/" width="960" height="560"></iframe>
                 </div>
             </div><hr />
+            <!-- <noindex> -->
             <div class="more_games">
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
@@ -60,11 +61,14 @@ for ($i = 0; $i < 6; $i++) {
                     </div>
                 <?php endforeach; ?>
             </div>
+            <!-- </noindex> -->
         </div>
     </div>
+    <!-- <noindex> -->
     <div class="footer">
         <p>Copyright &copy; 2016</p>
     </div>
+    <!-- </noindex> -->
 </div>
 </body>
 </html>

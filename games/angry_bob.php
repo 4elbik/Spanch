@@ -27,6 +27,7 @@ for ($i = 0; $i < 6; $i++) {
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="robots" content="nofollow"/>
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {
@@ -50,6 +51,7 @@ for ($i = 0; $i < 6; $i++) {
                     <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/spongebob-sandy-shrubbery-2/spongebob_shrubbery_shakedown_2.swf?adloader=true&amp;wmodeOverride=direct&amp;config=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fspongebob-sandy-shrubbery-2%2Fassets%2Fbootstrap%2Fconfig%2Fconfig.xml&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fspongebob-sandy-shrubbery-2%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="960" height="560" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/spongebob-sandy-shrubbery-2/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;wmodeOverride=direct&amp;config=http://www.nick.com/games/data/spongebob/spongebob-sandy-shrubbery-2/assets/bootstrap/config/config.xml&amp;base=http://www.nick.com/games/data/spongebob/spongebob-sandy-shrubbery-2/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
+            <!-- <noindex> -->
             <div class="more_games">
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
@@ -59,11 +61,14 @@ for ($i = 0; $i < 6; $i++) {
                     </div>
                 <?php endforeach; ?>
             </div>
+            <!-- </noindex> -->
         </div>
     </div>
+    <!-- <noindex> -->
     <div class="footer">
         <p>Copyright &copy; 2016</p>
     </div>
+    <!-- </noindex> -->
 </div>
 </body>
 </html>

@@ -27,6 +27,7 @@ for ($i = 0; $i < 6; $i++) {
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="robots" content="nofollow"/>
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {
@@ -52,6 +53,7 @@ for ($i = 0; $i < 6; $i++) {
                     <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/spongebob-tasty/tasty_pastry_party.swf?adloader=true&amp;wmodeOverride=Direct&amp;config=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fspongebob-tasty%2Fconfig.xml&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fspongebob-tasty%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="960" height="560" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/spongebob-tasty/"><param name="wmode" value="Direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;wmodeOverride=Direct&amp;config=http://www.nick.com/games/data/spongebob/spongebob-tasty/config.xml&amp;base=http://www.nick.com/games/data/spongebob/spongebob-tasty/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
+            <!-- <noindex> -->
             <div class="more_games">
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
@@ -61,11 +63,14 @@ for ($i = 0; $i < 6; $i++) {
                     </div>
                 <?php endforeach; ?>
             </div>
+            <!-- </noindex> -->
         </div>
     </div>
+    <!-- <noindex> -->
     <div class="footer">
         <p>Copyright &copy; 2016</p>
     </div>
+    <!-- </noindex> -->
 </div>
 </body>
 </html>

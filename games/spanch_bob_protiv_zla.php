@@ -27,6 +27,7 @@ for ($i = 0; $i < 6; $i++) {
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="robots" content="nofollow"/>
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {
@@ -50,6 +51,7 @@ for ($i = 0; $i < 6; $i++) {
                     <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/nickelodeon/nickelodeon-mystery-mansion/nick_nicktoons_mystery_mansion.swf?wmodeOverride=direct&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fnickelodeon%2Fnickelodeon-mystery-mansion%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="960" height="560" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/nickelodeon/nickelodeon-mystery-mansion/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="wmodeOverride=direct&amp;base=http://www.nick.com/games/data/nickelodeon/nickelodeon-mystery-mansion/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
+            <!-- <noindex> -->
             <div class="more_games">
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
@@ -59,11 +61,14 @@ for ($i = 0; $i < 6; $i++) {
                     </div>
                 <?php endforeach; ?>
             </div>
+            <!-- </noindex> -->
         </div>
     </div>
+    <!-- <noindex> -->
     <div class="footer">
         <p>Copyright &copy; 2016</p>
     </div>
+    <!-- </noindex> -->
 </div>
 </body>
 </html>

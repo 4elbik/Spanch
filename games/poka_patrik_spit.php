@@ -27,6 +27,7 @@ for ($i = 0; $i < 6; $i++) {
 <html>
 <head>
     <meta charset="utf-8" />
+    <meta name="robots" content="nofollow"/>
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {
@@ -60,6 +61,7 @@ for ($i = 0; $i < 6; $i++) {
                     </object>
                 </div>
             </div><hr />
+            <!-- <noindex> -->
             <div class="more_games">
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
@@ -69,11 +71,14 @@ for ($i = 0; $i < 6; $i++) {
                     </div>
                 <?php endforeach; ?>
             </div>
+            <!-- </noindex> -->
         </div>
     </div>
+    <!-- <noindex> -->
     <div class="footer">
         <p>Copyright &copy; 2016</p>
     </div>
+    <!-- </noindex> -->
 </div>
 </body>
 </html>
