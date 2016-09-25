@@ -28,6 +28,10 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="nofollow"/>
+    <title>Играть в игру Губка Боб - Американский футбол | онлайн игра Губка Боб - звезды футбола | Играть футбол Губка боб</title>
+    <meta name="description" content="Любители футбольных звезд из персонажей Nickelodeon, могут попробовать свои силы на компьютерном экране. На зеленом поле встречаются множество команд..." />
+    <meta name="keywords" content="футбол играть губка боб, губка боб американский футбол, губка боб звезды футбола, звездный футбол спанч боб">
+
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {
@@ -45,8 +49,8 @@ for ($i = 0; $i < 6; $i++) {
         <div class="main">
             <div class="one_game" style="width: 925px;">
                 <img src="http://spanchbob.cqp/images/img32.jpg" width="311" height="250" align="left"/>
-                <h1>Футбольные соревнования</h1><hr />
-                <p>Любители футбольных игр, могут попробовать свои силы на компьютерном экране. На зеленом поле встречаются две команды. Управление осуществляется одним из персонажей, выбранных вами.  Перемещать игрока можно стрелочками на клавиатуре. В игре содержится вся атмосфера футбольной игры. В ней наложено веселое музыкальное сопровождение, аплодисменты и возгласы зрителей. Цель игры - забросить мяч в ворота команды соперника. Как и в настоящем футболе, в любую секунду его может выхватить игрок из другой команды. Это очень увлекательная игра, позволяющая развивать логику, ловкость и скорость.</p><hr />
+                <h1>Американский футбол</h1><hr />
+                <p>Любители футбольных звезд из персонажей Nickelodeon, могут попробовать свои силы на компьютерном экране. На зеленом поле встречаются множество команд. Выбираешь своих <strong> любимых звёзд футбола </strong>, в их числе и наш любимый герой Губка Боб квадратные штаны. В американском футболе управление осуществляется одним из персонажей. Перемещать футбольных звёзд можно стрелочками на клавиатуре. В игре содержится вся атмосфера игры американского футбола. В ней наложено веселое музыкальное сопровождение, аплодисменты и возгласы зрителей. Цель игры - забросить мяч в ворота команды соперника. Как и в настоящем американском футболе, в любую секунду его может выхватить игрок из другой команды. Это очень увлекательная игра с участием Спанч Боба, позволяющая развивать логику, ловкость и скорость.</p><hr />
                 <div class="game_window" style="margin-left: -20px;">
                     <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/nickelodeon/nickelodeon-football-stars/main-flash.swf?wmodeOverride=direct&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fnickelodeon%2Fnickelodeon-football-stars%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="960" height="560" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/nickelodeon/nickelodeon-football-stars/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="wmodeOverride=direct&amp;base=http://www.nick.com/games/data/nickelodeon/nickelodeon-football-stars/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>

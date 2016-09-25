@@ -28,6 +28,10 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="nofollow"/>
+    <title>Играть в игру Спанч Боб - Дайвер онлайн | онлайн игра Губка Боб - Дайвер </title>
+    <meta name="description" content="Этой отважный герой не может сидеть на месте без дела и в этой игре он решил отправиться на море для того, чтоб собрать все лишние предметы, которые могут плавать в воде..." />
+    <meta name="keywords" content="игра Спанч Боб онлайн Дайвер, игра Губка Боб Дайвер">
+
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {

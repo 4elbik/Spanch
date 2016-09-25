@@ -28,6 +28,10 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="nofollow"/>
+    <title>Играть в игру Спанч Боб - какой боб, какие штаны? | онлайн игра Губка Боб - какой боб, какие штаны? | Играть онлайн Губка боб бесплатно</title>
+    <meta name="description" content="В этой аркаде, он оказывается в большом городе и неизвестно кто такой боб и какие такие штаны. Ему снова поставлена задача добраться до определенного места.  Но, как всегда, сделать это ему мешают злые..." />
+    <meta name="keywords" content="какой боб какие штаны, Спанч Боб какой боб какие штаны, играть онлайн бесплатно какой боб какие штаны">
+
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {
@@ -65,7 +69,7 @@ for ($i = 0; $i < 6; $i++) {
             <div class="one_game">
                 <img src="http://spanchbob.cqp/images/img28.jpg" width="311" height="250" align="left"/>
                 <h1>Путешествия сквозь опасность</h1><hr />
-                <p>Главный персонаж известного детского мультика может теперь не только преодолевать различные препятствия, но и развлекаться. В этой аркаде, он оказывается в большом городе. Ему снова поставлена задача добраться до определенного места.  Но, как всегда, сделать это ему мешают злые недоброжелатели! В этой версии ему предстоит прыгать по веткам и сражаться с людьми, для того чтобы пройти дальше. На экране появляется индикатор жизни. Его уровень снижается при столкновении с недоброжелателем. Игра состоит из нескольких уровней и на все предоставлено три жизни. </p><hr />
+                <p>Главный персонаж известного детского мультика может теперь не только преодолевать различные препятствия, но и развлекаться. В этой аркаде, он оказывается в большом городе и неизвестно кто такой боб и какие такие штаны. Ему снова поставлена задача добраться до определенного места.  Но, как всегда, сделать это ему мешают злые недоброжелатели! В этой версии ему предстоит прыгать по веткам и сражаться со злодеями, которые ещё не знают кто такой боб и что за штаны на нем надеты. На экране появляется индикатор жизни. Его уровень снижается при столкновении с недоброжелателем. Игра состоит из нескольких уровней и на все предоставлено три жизни. </p><hr />
                 <div class="game_window">
                     <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/spongebob-whobob/main.swf?adloader=true&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fspongebob-squarepants%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="725" height="483" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/spongebob-squarepants/"><param name="wmode" value="transparent"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;base=http://www.nick.com/games/data/spongebob/spongebob-squarepants/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>

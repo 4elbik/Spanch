@@ -28,6 +28,10 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="nofollow"/>
+    <title>Играть в игру Спанч Боб - Карате | онлайн игра Губка Боб - Карате | Играть онлайн в Губка боб драки бесплатно</title>
+    <meta name="description" content="..." />
+    <meta name="keywords" content="онлайн игра спнач боб карате, онлайн игра губка боб карате, играть губка боб драки онлайн бесплатно">
+
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {

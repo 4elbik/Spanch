@@ -28,6 +28,10 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="nofollow"/>
+    <title>Играть в игру Спанч Боб Магические зелья | онлайн игра Губка Боб - Магические зелья | Играть онлайн Губка боб бесплатно</title>
+    <meta name="description" content="Вот  это да! Оказывается, Губка Боб и его друг Патрик умеют готовить магические зелья и в данной игре они решили устроить настоящую колдовскую вечеринку..." />
+    <meta name="keywords" content="спанч боб зелья, онлайн игра губка боб зелья, играть губка боб магические зелья онлайн бесплатно">
+
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {

@@ -28,6 +28,10 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="nofollow"/>
+    <title>Играть в игру Спанч боб - Древний Боулинг в Бикини Боттом онлайн | онлайн игра Губка Боб - Древний Боулинг в Бикини Боттом</title>
+    <meta name="description" content="Игра про Губку Боба, созданная по жанру известного мультсериала, не может оставить равнодушным ни одного человека. На этот раз, главным героем предстоит сыграть в боулинг друг против друга..." />
+    <meta name="keywords" content="игра Спанч Боб онлайн Боулинг в Бикини Боттом, игра Губка Боб древний боулинг">
+
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {
@@ -65,7 +69,7 @@ for ($i = 0; $i < 6; $i++) {
             <div class="one_game">
                 <img src="http://spanchbob.cqp/images/img20.jpg" width="311" height="250" align="left"/>
                 <h1>Боулинг в Бикини Боттом</h1><hr />
-                <p>Игра про Губку Боба, созданная по жанру известного мультсериала, не может оставить равнодушным ни одного человека. На этот раз, главным героем предстоит пройти необычное испытание. Губка боб и Патрик отправляются на мероприятие. На нем организованно множество различных палаток. Выбирая каждую из них кнопкой мыши, можно проходить испытания. Есть возможность играть персонажем Губкой Бобом, Патрикам или ими вместе. В каждой палатке их ждет очередной сюрприз. Игра многоуровневая, но при этом каждый этап не похож на другой.</p><hr />
+                <p>Игра про Губку Боба боулинг, созданная по жанру известного мультсериала, не может оставить равнодушным ни одного человека. На этот раз, главным героем предстоит пройти необычное испытание. Губка боб и Патрик отправляются на мероприятие - боулинг. На нем организованно множество различных уровней. Выбирая каждый из них кнопкой мыши, можно проходить испытания. Есть возможность играть персонажем Губкой Бобом, Патрикам или ими вместе. В каждом ходу их ждет очередной сюрприз и приятный бонус, чтобы сбить как можно больше кеглей. Игра Губка боб боулинг многоуровневая, но при этом каждый этап не похож на другой.</p><hr />
                 <div class="game_window">
                     <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/sb_bowling/SpongeBob.swf?wmodeOverride=direct&amp;base=http%3A%2F%2Fwww.nick.comgames%2Fdata%2Fspongebob%2Fsb_bowling%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="725" height="483" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.comgames/data/spongebob/sb_bowling/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="wmodeOverride=direct&amp;base=http://www.nick.comgames/data/spongebob/sb_bowling/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>

@@ -28,6 +28,10 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="nofollow"/>
+    <title>Играть в игру Спанч боб - Angry Боб онлайн | онлайн игра Angry Боб</title>
+    <meta name="description" content="Это игра превосходно тренирует меткость. На экране появляется большой кустарник. На нем сидит персонаж с рогаткой. Цель игры - это правильно прицелиться и сбить орехи..." />
+    <meta name="keywords" content="игра Спанч Боб онлайн - Angry Боб, играть в игры Губка Боб онлайн бесплатно">
+
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {

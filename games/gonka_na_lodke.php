@@ -28,6 +28,10 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="nofollow"/>
+    <title>Играть в игру Спанч Боб - Гонка на лодке | онлайн игра Губка Боб - Гонки | Играть онлайн в Губка боб лодочные гонки</title>
+    <meta name="description" content="И снова, любителем онлайн игр предоставляется возможность управлять всеми любимым персонажем - Губка Боб. В этот раз в качестве транспортного средства он будет использовать красивую лодку..." />
+    <meta name="keywords" content="игра спанч боб гонки на лодке, губка боб играть онлайн гонка на лодке, бесплатные игры с губкой бобом квадратные штаны">
+
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {
@@ -65,7 +69,7 @@ for ($i = 0; $i < 6; $i++) {
             <div class="one_game">
                 <img src="http://spanchbob.cqp/images/img25.jpg" width="311" height="250" align="left"/>
                 <h1>Гонка на лодке</h1><hr />
-                <p>И снова, любителем онлайн игр предоставляется возможность управлять всеми любимым персонажем - Губка Боб. В этот раз в качестве транспортного средства он будет использовать красивую тарелку. На ней ему и предстоит пройти препятствия для того, чтобы выиграть. Это транспортное средство является не самым надежным, поэтому необходимо вертеться, для того, чтобы не упасть. Кроме этого, на его пути встречаются такие преграды, как ямы, кочки и камни. Управление осуществляется при помощи левой кнопки мыши и стрелок на клавиатуре. Помогите Губке Бобу доехать до назначенной цели и не упасть.</p><hr />
+                <p>И снова, любителем онлайн игр предоставляется возможность управлять всеми любимым персонажем - Губка Боб. В этот раз в качестве транспортного средства он будет использовать красивую лодку. На ней ему и предстоит пройти препятствия для того, чтобы выиграть. Это транспортное средство является не самым надежным, поэтому необходимо вертеться, для того, чтобы не упасть. Кроме этого, на его пути встречаются такие преграды, как ямы, кочки и камни. Управление осуществляется при помощи левой кнопки мыши и стрелок на клавиатуре. Помогите Губке Бобу доехать до назначенной цели и не упасть.</p><hr />
                 <div class="game_window">
                     <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/spongebob-boat-o-cross/spongbob_boattest.swf?adloader=true&amp;config=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fspongebob-boat-o-cross%2Fxml%2Fconfig.xml&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fspongebob-boat-o-cross%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="725" height="483" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/spongebob-boat-o-cross/"><param name="wmode" value="transparent"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;config=http://www.nick.com/games/data/spongebob/spongebob-boat-o-cross/xml/config.xml&amp;base=http://www.nick.com/games/data/spongebob/spongebob-boat-o-cross/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>

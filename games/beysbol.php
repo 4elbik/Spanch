@@ -28,6 +28,10 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="nofollow"/>
+    <title>Играть в игру Спанч боб - Бейсбол онлайн | онлайн игра Губка Боб - Бейсбол</title>
+    <meta name="description" content="И вот он, известный во всем мире Губка Боб, на спортивной арене. Главный герой игры решил устроить настоящие соревнования по бейсболу и пригласил для этого лучших друзей..." />
+    <meta name="keywords" content="игра Спанч Боб онлайн Бейсбол, играть в игры Губка Боб онлайн бесплатно">
+
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {

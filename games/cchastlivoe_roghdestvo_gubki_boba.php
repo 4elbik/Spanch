@@ -28,6 +28,10 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="nofollow"/>
+    <title>Играть в игру Cчастливое рождество Губки Боба онлайн | онлайн игра Губка Боб - Cчастливое рождество </title>
+    <meta name="description" content="Перед наступлением нового года, хочется подарить себе массу положительных впечатлений. Это может сделать удивительная рождественская версия игры про Губку Боб..." />
+    <meta name="keywords" content="игра Cчастливое рождество Губки Боба, игра про рождество Губка Боб онлайн">
+
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {

@@ -28,6 +28,10 @@ for ($i = 0; $i < 6; $i++) {
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="nofollow"/>
+    <title>Играть в игру Спанч Боб - Хэллоуин | онлайн игра Губка Боб - Хэллоуин | Играть онлайн в Губка боб приключения бесплатно</title>
+    <meta name="description" content="Непростая задача стоит перед главными героями игры Спанч Боб Хэллоуин. Известный всем смелый и отважный Губка Боб со своими друзьями отправились в старинный заколдованный замок, полный привидений ..." />
+    <meta name="keywords" content="онлайн игра спнач боб Хэллоуин, онлайн игра губка боб Хэллоуин, играть губка боб приключения онлайн бесплатно">
+
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
     <style type="text/css">
         .game {
@@ -45,8 +49,8 @@ for ($i = 0; $i < 6; $i++) {
         <div class="main">
             <div class="one_game" style="width: 925px;">
                 <img src="http://spanchbob.cqp/images/img13.jpg" width="311" height="250" align="left"/>
-                <h1>Спанч Боб против зла</h1><hr />
-                <p>Непростая задача стоит перед главными героями игры Спанч Боб против зла. Известный всем смелый и отважный Губка Боб со своими друзьями отправились в старинный заколдованный замок, полон привидений и основная их задача расправиться со всей нечистью, которая тут живет. Вам придется бродить по нескольким этажам замка, открывать множество запертых дверей, разгадывать тайны и головоломки замка. И все это лишь для того, чтоб очистить это старинное место от привидений. В вашем распоряжении будет специальное оружие для ловли привидений и колба для их сбора. Одевайте защитный скафандр и вперед, на охоту за нечистью. Не думайте, что играть будет легко, так как в любой момент на вас из-за угла может напасть злое чудище. Не бойтесь его, ловите и продолжайте выполнение этой непростой миссии. Играйте в игру Спанч Боб против зла и победите все зло, живущее в старинном замке.</p><hr />
+                <h1>Спанч Боб Хэллоуин</h1><hr />
+                <p>Непростая задача стоит перед главными героями игры Спанч Боб Хэллоуин. Известный всем смелый и отважный Губка Боб со своими друзьями отправились в старинный заколдованный замок, полный привидений и основная их задача расправиться со всей нечистью в канун хэллоуина, которая тут живет. Вам придется бродить по нескольким этажам замка, открывать множество запертых дверей, разгадывать тайны и головоломки замка. И все это лишь для того, чтоб очистить это старинное место от привидений. В вашем распоряжении будет специальное оружие для ловли привидений, сделанное как раз в этот хэллоуинский день, и колба для их сбора. Одевайте защитный скафандр и вперед, на охоту за нечистью. Не думайте, что играть будет легко, так как в любой момент на вас из-за угла может напасть злое чудище. Не бойтесь его, ловите и продолжайте выполнение этой непростой миссии. Играйте в игру Спанч Боб Хэллоуин и победите все зло, живущее в старинном замке.</p><hr />
                 <div class="game_window" style="margin-left: -20px;">
                     <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/nickelodeon/nickelodeon-mystery-mansion/nick_nicktoons_mystery_mansion.swf?wmodeOverride=direct&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fnickelodeon%2Fnickelodeon-mystery-mansion%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="960" height="560" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/nickelodeon/nickelodeon-mystery-mansion/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="wmodeOverride=direct&amp;base=http://www.nick.com/games/data/nickelodeon/nickelodeon-mystery-mansion/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
