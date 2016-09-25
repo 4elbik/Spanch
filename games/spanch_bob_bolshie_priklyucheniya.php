@@ -31,6 +31,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="игры губка боб большое приключение, игры губка боб квадратные штаны большие приключения, играть игру губка боб большое приключение, играть губка боб приключения онлайн бесплатно">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
+    <link rel="shortcut icon" href="http://spanchbob.cqp/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -46,7 +47,7 @@ for ($i = 0; $i < 6; $i++) {
     <div class="content">
         <div class="main">
             <div class="one_game" style="width: 925px;">
-                <img src="http://spanchbob.cqp/images/big_adv.png" width="311" height="250" align="left" />
+                <img src="http://spanchbob.cqp/images/big_adv.png" alt="Играть в Губка Боб - большое приключение. Играть в игру Спанч Боб - большое приключение" width="311" height="250" align="left" />
                 <h1>Губка Боб большое приключение</h1><hr />
                 <p>Игра Губка боб большое приключение представляет собой небольшую РПГ с очень инетересным сюжетом, в котором задействованы все жители БикиниБоттом, начиная от всеми известных персонажей - Патрика, Сквидварда, Мистера Крабса, Планктона и других и заканчивая малоизвестными.. Большое приключение Губки Боба начинается с его ананасового дома, где предстоит научится основам игры и пройти первое задание, после которого, на удивление мое, сразу будет драка с боссом. Очень инетесное большое приключение спанч боба только начнется и дальше будет только интереснее и интереснее.. Есть система уровней, которая позволяет открывать определенные навыки и легче справляться со всеми трудностями, возникающие на всём протяжении этого большого приключения. Главное начать, а дальше уже не возможно будет остановиться!)</p><hr />
                 <div class="game_window" style="margin-left: -20px;">
@@ -58,7 +59,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>

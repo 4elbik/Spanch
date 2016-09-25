@@ -33,6 +33,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="губка боб подводные приключения, онлайн игра губка боб три в ряд, играть губка боб логические онлайн бесплатно">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
+    <link rel="shortcut icon" href="http://spanchbob.cqp/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -55,7 +56,7 @@ for ($i = 0; $i < 6; $i++) {
             <div class="top5">
                 <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
                 <?php foreach($tops as $top): ?>
-                    <p><a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" width="188" height="140" />
+                    <p><a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $top['title']; ?>. Губка боб игры онлайн" width="188" height="140" />
                             <?php echo $top['title']; ?></a>
                     </p>
                 <?php endforeach; ?>
@@ -67,7 +68,7 @@ for ($i = 0; $i < 6; $i++) {
         <!-- </noindex> -->
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img16.jpg" width="311" height="250" align="left"/>
+                <img src="http://spanchbob.cqp/images/img16.jpg" alt="Играть в Губка Боб - Подводные приключения. Играть в игру Спанч Боб - Подводные приключения" width="311" height="250" align="left"/>
                 <h1>Подводные приключения</h1><hr />
                 <p>Для любителей игры "три в ряд", появилась новая аркада! На экране появляются герои из любимого мультфильмы Губка боб. Необходимо проявить внимательность и собрать три или более персонажей в один ряд. После чего, они исчезают и появляются новые. За правильно собранный ряд даются очки. Чем больше их наберешь, тем лучше. Игра состоит из нескольких уровней, каждый с повышенной сложностью. Увлекательная игра сопровождается красивыми картинками, с изображением подводного мира. Она отлично тренирует память и внимательность. Музыкальное сопровождение позволяет сделать испытания максимально веселыми и интересными!</p><hr />
                 <div class="game_window">
@@ -79,7 +80,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>

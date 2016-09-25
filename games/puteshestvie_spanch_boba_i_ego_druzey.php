@@ -33,6 +33,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="онлайн игра спнач боб путешествие на автобусе, онлайн игра губка боб автобусные приключения, играть губка боб приключения онлайн бесплатно">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
+    <link rel="shortcut icon" href="http://spanchbob.cqp/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -55,7 +56,7 @@ for ($i = 0; $i < 6; $i++) {
             <div class="top5">
                 <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
                 <?php foreach($tops as $top): ?>
-                    <p><a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" width="188" height="140" />
+                    <p><a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $top['title']; ?>. Губка боб игры онлайн" width="188" height="140" />
                             <?php echo $top['title']; ?></a>
                     </p>
                 <?php endforeach; ?>
@@ -67,7 +68,7 @@ for ($i = 0; $i < 6; $i++) {
         <!-- </noindex> -->
         <div class="main">
             <div class="one_game">
-                <img src="http://spanchbob.cqp/images/img21.jpg" width="311" height="250" align="left"/>
+                <img src="http://spanchbob.cqp/images/img21.jpg" alt="Играть в Губка Боб - Путешествие Спанч Боба и его друзей. Играть в игру Спанч Боб - Путешествие Спанч Боба и его друзей" width="311" height="250" align="left"/>
                 <h1>Путешествие Спанч Боба и его друзей</h1><hr />
                 <p>Ура! Губка Боб отправляется в путешествие. Он готов открыть себя для новых городов и стран. На красочном автобусе он может посетить множество интересных мест. Управляя транспортом, вы можете помочь ему решить эту задачу. Как всегда, на его пути встречаются препятствия, которые нужно преодолеть. Чем больше их получится объехать, тем больше начисляется очков. Такой игрой удобно управлять, при помощи девой кнопки мыши и стрелочек на клавиатуре. Очень красочная и интересная игра, состоит из нескольких уровней, проходя их, можно изучить множество новых мест.</p><hr />
                 <div class="game_window">
@@ -79,7 +80,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>

@@ -33,6 +33,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="онлайн игра спнач боб карате, онлайн игра губка боб карате, играть губка боб драки онлайн бесплатно">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
+    <link rel="shortcut icon" href="http://spanchbob.cqp/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -48,7 +49,7 @@ for ($i = 0; $i < 6; $i++) {
     <div class="content">
         <div class="main">
             <div class="one_game" style="width: 950px;">
-                <img src="http://spanchbob.cqp/images/img3.jpg" width="311" height="250" align="left"/>
+                <img src="http://spanchbob.cqp/images/img3.jpg" alt="Играть в Губка Боб - Карате. Играть в игру Спанч Боб - Карате" width="311" height="250" align="left"/>
                 <h1>Сквидвард - каратист</h1><hr />
                 <p>Уже давно Сквидвард мечтал изучить основы карате и с полу удара разбивать любые предметы. И вот ему выпал такой отличный шанс, его тренером стал Спанч Боб. Перед вами будет поставлена непростая задача в данной игре - вы должны будете за определенное время разбить рукой как можно больше фруктов, бетонных блоков и прочего, которые двигаются по конвейеру. Но будьте внимательны, чтоб не нарваться на открытую ракушку, так как она способна съесть главного героя и тогда вы потеряете жизнь. Когда дело будет подходить к концу уровня, мочите все, что будете видеть. Поверьте, вам обязательно понравится игра Сквидвард каратист и играть в нее вы можете с лучшими друзьями. Установите новый рекорд карате, играя, разбейте всё одной рукой и будьте уверены в том, что с такими тренировками Сквидвард обязательно познает тонкости этой великой культуры.</p><hr />
                 <div class="game_window" style="margin-left: -20px;">
@@ -60,7 +61,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>

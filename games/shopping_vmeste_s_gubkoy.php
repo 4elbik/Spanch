@@ -33,6 +33,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="онлайн игра спнач боб шоппинг, онлайн игра губка боб шоппинг, играть губка боб онлайн бесплатно">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
+    <link rel="shortcut icon" href="http://spanchbob.cqp/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -48,7 +49,7 @@ for ($i = 0; $i < 6; $i++) {
     <div class="content">
         <div class="main">
             <div class="one_game" style="width: 925px;">
-                <img src="http://spanchbob.cqp/images/img19.jpg" width="311" height="250" align="left"/>
+                <img src="http://spanchbob.cqp/images/img19.jpg" alt="Играть в Губка Боб - Шоппинг. Играть в игру Спанч Боб - Шоппинг" width="311" height="250" align="left"/>
                 <h1>Шоппинг вместе с Губкой</h1><hr />
                 <p>Игра создана по жанру интересного детского мультика Губка Боб квадратные штаны. На этот раз главному герою придется заняться шопингом. На его выбор можно отправиться в один из четырех магазинов. Там ему предстоит общаться с людьми и делать множество покупок. Управление игрой осуществляется при помощи кнопок мыши. На первом этапе прохождение испытания предоставляется курс обучения. На экране будут появляться стрелочки и надписи, которые подскажут, какую задачу необходимо выполнить. Насладиться этой увлекательной игрой можно и вместе с другом! Продайте всё, что требуется каждому покупаетлю, и найдите подход к каждому из них! Зарабатывай, зарабатывай, ну и конечно, зарабатывай! :)</p><hr />
                 <div class="game_window" style="margin-left: -20px;">
@@ -60,7 +61,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>

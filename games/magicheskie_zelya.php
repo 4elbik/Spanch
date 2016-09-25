@@ -33,6 +33,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="спанч боб зелья, онлайн игра губка боб зелья, играть губка боб магические зелья онлайн бесплатно">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
+    <link rel="shortcut icon" href="http://spanchbob.cqp/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -48,7 +49,7 @@ for ($i = 0; $i < 6; $i++) {
     <div class="content">
         <div class="main">
             <div class="one_game" style="width: 925px;">
-                <img src="http://spanchbob.cqp/images/img6.jpg" width="311" height="250" align="left"/>
+                <img src="http://spanchbob.cqp/images/img6.jpg" alt="Играть в Губка Боб - Магические зелья. Играть в игру Спанч Боб - Магические зелья" width="311" height="250" align="left"/>
                 <h1>Магические зелья</h1><hr />
                 <p>Вот  это да! Оказывается, Губка Боб и его друг Патрик умеют готовить магические зелья и в данной игре они решили устроить настоящую колдовскую вечеринку. Приготовили огромный чан, наполнили его водой и собрали множество ингредиентов для своего волшебства. Хотите  узнать как все будет готовиться? Если да, тогда играйте в игру Спанч Боб и Патрик готовят магические зелья.
                     Ваша основная задача будет заключаться в том, чтоб помогать друзьям наполнять чан зельями. Перед вами будет показан список и на полке слева будут лежать множество зелий. Если вы сделаете правильный выбор, зелье будет приготовлено правильно и Спанч Боб с Патриком будут праздновать свою магическую вечеринку. Но даже если вы ошибетесь, не отчаивайтесь, вам будут даны подсказки.
@@ -62,7 +63,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>

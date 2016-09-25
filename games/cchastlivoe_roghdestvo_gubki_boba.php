@@ -33,6 +33,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="игра Cчастливое рождество Губки Боба, игра про рождество Губка Боб онлайн">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
+    <link rel="shortcut icon" href="http://spanchbob.cqp/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -48,7 +49,7 @@ for ($i = 0; $i < 6; $i++) {
     <div class="content">
         <div class="main">
             <div class="one_game" style="width: 925px;">
-                <img src="http://spanchbob.cqp/images/img18.jpg" width="311" height="250" align="left"/>
+                <img src="http://spanchbob.cqp/images/img18.jpg" alt="Играть в Губка Боб - Cчастливое рождество. Играть в игру Спанч Боб - Cчастливое рождество" width="311" height="250" align="left"/>
                 <h1>Cчастливое рождество Губки Боба</h1><hr />
                 <p>Перед наступлением нового года, хочется подарить себе массу положительных впечатлений. Это может сделать удивительная рождественская версия игры про Губку Боб. С первой секунды аркады появляется веселая мелодия и красочное сопровождение. Губке Бобу и его друзьям приходится находиться на открытой местности и ловить новогодние подарки. За каждую пойманную начисляются накопительные очки. Цель игры - набрать как можно больше очков и пройти испытания разного уровня сложности. На это персонажем из любимого детского мультфильма дается, всего лишь, три жизни. Следует проявиться максимальную ловкость!</p><hr />
                 <div class="game_window" style="margin-left: -20px;">
@@ -60,7 +61,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>
