@@ -33,7 +33,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="губка боб пока патрик спит, онлайн игра спнач боб пока патрик спит, онлайн игра губка боб пока патрик спит, играть губка боб приключения онлайн бесплатно">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
-    <link rel="shortcut icon" href="http://spanchbob.cqp/favicon2.2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="http://igry-spanch-bob.ru/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -44,12 +44,12 @@ for ($i = 0; $i < 6; $i++) {
 <body>
 <div id="background">
     <div class="logo">
-        <a href="/"><img src="http://spanchbob.cqp/images/5.png" /></a>
+        <a href="/"><img src="http://igry-spanch-bob.ru/images/6.png" /></a>
     </div>
     <div class="content">
         <div class="main">
             <div class="one_game" style="width: 925px;">
-                <img src="http://spanchbob.cqp/images/img7.jpg" alt="Играть в Губка Боб - Пока Патрик спит. Играть в игру Спанч Боб - Пока Патрик спит" width="311" height="250" align="left"/>
+                <img src="http://igry-spanch-bob.ru/images/img7.jpg" alt="Играть в Губка Боб - Пока Патрик спит. Играть в игру Спанч Боб - Пока Патрик спит" width="311" height="250" align="left"/>
                 <h1>Пока Патрик спит</h1><hr />
                 <p>Пока Патрик спит, Спанч Боб решил немного прогуляться по морским просторам и попрыгать по красивым подводным камням. Сколько же тут прекрасного: морские обитатели, растения, фауна. И все это сможет увидеть не только Губка Боб, но и ты, играя вместе с ним в эту увлекательную игру.
                     Управлять необходимо стрелками на клавиатуре, нужно будет прыгать с одного камня на другой, все выше и выше. Чем больше камней перепрыгнешь - тем больше заработаете игровых очков. Но не думаете, что это так легко, ведь на вашем пути могут встречаться и препятствия, на которые желательно не нарываться. Если вы увидите на одном из камней подушки, прыгайте на них обязательно и тогда взлетите вверх намного быстрее.
@@ -71,7 +71,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>

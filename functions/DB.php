@@ -2,8 +2,9 @@
 
 function connect_db()
 {
-    mysql_connect("localhost", "root", "");
-    mysql_select_db("spanch_bob");
+    mysql_connect("localhost", "u0239970_default", "HL0H2!jj");
+    mysql_select_db("u0239970_default");
+    mysql_query("SET NAMES 'utf8'");
 }
 
 function sql_query($query)

@@ -33,7 +33,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="Играть в игру Спанч Боб Каменный замок 2, онлайн игра Губка Боб - Каменный замок 2, играть губка боб приключения онлайн бесплатно">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
-    <link rel="shortcut icon" href="http://spanchbob.cqp/favicon2.2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="http://igry-spanch-bob.ru/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -44,12 +44,12 @@ for ($i = 0; $i < 6; $i++) {
 <body>
 <div id="background">
     <div class="logo">
-        <a href="/"><img src="http://spanchbob.cqp/images/5.png" /></a>
+        <a href="/"><img src="http://igry-spanch-bob.ru/images/6.png" /></a>
     </div>
     <div class="content">
         <div class="main">
             <div class="one_game" style="width: 925px;">
-                <img src="http://spanchbob.cqp/images/img17.jpg" alt="Играть в Губка Боб - Каменный замок II. Играть в игру Спанч Боб - Каменный замок II" width="311" height="250" align="left"/>
+                <img src="http://igry-spanch-bob.ru/images/img17.jpg" alt="Играть в Губка Боб - Каменный замок II. Играть в игру Спанч Боб - Каменный замок II" width="311" height="250" align="left"/>
                 <h1>Каменный замок II</h1><hr />
                 <p>В каждой игре Губке Бобу предстоит пройти сложнейшие испытание. Не исключением стала и эта версия. Главному герою необходимо попасть в огромный замок, но это не так просто сделать, перед ним стоит мощная дверь. На пути к ней появляются бдительные охранники замка, которые не позволяют пройти персонажу в замок. Губке бобу предстоит избавиться от назойливых охранников и добраться до вершины замка. В этом ему поможет защитный шлем, хитрость и сила. Игра невероятно увлекательная и проста в управлении. С ней может справиться маленький ребенок, но и взрослому будет интересно пройти испытания. Темные картинки и характерное музыкальное сопровождение позволяют передать всю насыщенность игры.</p><hr />
                 <div class="game_window" style="margin-left: -20px;">
@@ -61,7 +61,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://spanchbob.cqp/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>
