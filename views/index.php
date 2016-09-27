@@ -15,7 +15,7 @@ require_once __DIR__ . '/../functions/DB.php';
 <body>
 <div id="background">
     <div class="logo">
-        <a href="/"><img src="http://igry-spanch-bob.ru/images/6.png" /></a>
+        <a href="/"><img src="http://igry-spanch-bob.ru/images/6.png" alt="Игры Спанч боб. Переход на главную страницу"/></a>
     </div>
     <div class="content">
         <!-- <noindex> -->
@@ -27,7 +27,7 @@ require_once __DIR__ . '/../functions/DB.php';
             <div class="top5">
                 <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
                 <?php foreach($tops as $top): ?>
-                    <p><a href="<?php echo "http://igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="<?php echo $top['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" width="188" height="140" />
+                    <p><a href="<?php echo "http://igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="http://igry-spanch-bob.ru/images/<?php echo $top['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" title="Игра Спанч боб - <?php echo $item['title']; ?>" width="188" height="140" />
                             <?php echo $top['title']; ?></a>
                     </p>
                 <?php endforeach; ?>
@@ -43,9 +43,9 @@ require_once __DIR__ . '/../functions/DB.php';
         <div class="main">
             <div class="popular_games">
                 <a href="http://igry-spanch-bob.ru/games/spanch_bob_bolshie_priklyucheniya.php">
-                    <img src="http://igry-spanch-bob.ru/images/popular_game_1.jpg" alt="" width="593" />
+                    <img src="http://igry-spanch-bob.ru/images/popular_game_1.jpg" alt="Спанч боб Большие приключения. Губка боб - Большие приключения играть" title="Игра Спанч боб - Большое приключение" width="593" />
                     <div class="popular_games_text">
-                        <strong>СПАНЧ БОБ<hr /> <span class="next_str">"БОЛЬШИЕ ПРИКЛЮЧЕНИЯ"</span></strong>
+                        <strong>СПАНЧ БОБ<hr /> <span class="next_str">"БОЛЬШОЕ ПРИКЛЮЧЕНИЕ"</span></strong>
                     </div>
                 </a>
             </div>
@@ -56,7 +56,7 @@ require_once __DIR__ . '/../functions/DB.php';
             </div>
             <?php foreach ($items as $item): ?>
             <div class="game">
-                <a href="<?php echo "http://igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="<?php echo $item['img']; ?>" width="188" height="140" align="left" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                <a href="<?php echo "http://igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="http://igry-spanch-bob.ru/images/<?php echo $item['img']; ?>" width="188" height="140" align="left" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн"  title="Игра Спанч боб - <?php echo $item['title']; ?>" /><h2><?php echo $item['title']; ?></h2></a><hr />
                 <p><?php echo $item['little_description']; ?></p>
             </div>
             <?php endforeach; ?>
