@@ -111,7 +111,7 @@ for ($i = 0; $i < 6; $i++) {
                 " часа, посетителей за 24 часа и за сегодня' "+
                 "border='0' width='88' height='31'><\/a>")
             //--></script><!--/LiveInternet-->
-        <p>Copyright &copy; 2016</p>
+        <p style="margin-top: 3px;">Copyright &copy; 2016</p>
     </div>
     <!-- </noindex> -->
 </div>
