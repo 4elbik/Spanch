@@ -22,7 +22,7 @@ function edit_img($id)
     is_loaded();
 
     if (is_uploaded_file($_FILES['game_img']['tmp_name'])) {
-        $location = 'http://igry-spanch-bob.ru/images/';
+        $location = 'http://www.igry-spanch-bob.ru/images/';
         move_uploaded_file($_FILES['game_img']['tmp_name'], __DIR__ . '/../images/'.'img'.$id.'.jpg');
         edit_in_db_img('img'.$id.'.jpg', $location, $id);
     }

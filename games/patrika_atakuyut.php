@@ -33,7 +33,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="патрик улитки, онлайн игра губка боб патрика атакуют, играть губка боб приключения онлайн бесплатно, играть губка боб атака улиток на патрика">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
-    <link rel="shortcut icon" href="http://igry-spanch-bob.ru/favicon2.2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="http://www.igry-spanch-bob.ru/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -44,7 +44,7 @@ for ($i = 0; $i < 6; $i++) {
 <body>
 <div id="background">
     <div class="logo">
-        <a href="/"><img src="http://igry-spanch-bob.ru/images/6.png" /></a>
+        <a href="/"><img src="http://www.igry-spanch-bob.ru/images/6.png" /></a>
     </div>
     <div class="content">
         <!-- <noindex> -->
@@ -56,7 +56,7 @@ for ($i = 0; $i < 6; $i++) {
             <div class="top5">
                 <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
                 <?php foreach($tops as $top): ?>
-                    <p><a href="<?php echo "http://igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="http://igry-spanch-bob.ru/images/<?php echo $top['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $top['title']; ?>. Губка боб игры онлайн" title="Игра Спанч Боб - <?php echo $top['title']; ?>" width="188" height="140" />
+                    <p><a href="<?php echo "http://www.igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="http://www.igry-spanch-bob.ru/images/<?php echo $top['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $top['title']; ?>. Губка боб игры онлайн" title="Игра Спанч Боб - <?php echo $top['title']; ?>" width="188" height="140" />
                             <?php echo $top['title']; ?></a>
                     </p>
                 <?php endforeach; ?>
@@ -68,7 +68,7 @@ for ($i = 0; $i < 6; $i++) {
         <!-- </noindex> -->
         <div class="main">
             <div class="one_game">
-                <img src="http://igry-spanch-bob.ru/images/img1.jpg" alt="Играть в Губка Боб - Патрика Атакуют. Играть в игру Спанч Боб - Патрика Атакуют" width="311" height="250" align="left"/>
+                <img src="http://www.igry-spanch-bob.ru/images/img1.jpg" alt="Играть в Губка Боб - Патрика Атакуют. Играть в игру Спанч Боб - Патрика Атакуют" width="311" height="250" align="left"/>
                 <h1>Патрика Атакуют</h1><hr />
                 <p>Ну никак Патрик не может справится с нашествием этих страшных, серых и надоедливых улиток. Как бы он ни старался от них избавиться, их численность увеличивается. Теперь всё больше и больше становится этих злых улиток. Вы должны помочь главному герою очистить дом от этих слизистых насекомых. Но сделать это будет достаточно трудно, так как с каждым новым уровнем их будет все больше и больше, а места чтоб укрыться совсем мало. В вашем распоряжении будет специальный раствор, который усыпляет улиток. Вот именно его и надо будет использовать для очистки дома Патрика. Но будьте осторожны и внимательны, так как не всех улиток усыпляет такой раствор. Те, которые с черным панцирем, будут засыпать лишь на несколько секунд. Вы обязательно должны расправится со всеми улитками, которые будут бегать по дому главного героя. Играйте в игру Атака улиток на Патрика и получайте массу удовольствия от такой необычной, но очень увлекательной игры.  </p><hr />
                 <div class="game_window">
@@ -80,7 +80,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="http://igry-spanch-bob.ru/images/<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" title="Игра Спанч Боб - <?php echo $item['title']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://www.igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="http://www.igry-spanch-bob.ru/images/<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" title="Игра Спанч Боб - <?php echo $item['title']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>

@@ -33,7 +33,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="губка боб морской бой, онлайн игра губка боб пираты, играть губка боб логические онлайн бесплатно">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
-    <link rel="shortcut icon" href="http://igry-spanch-bob.ru/favicon2.2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="http://www.igry-spanch-bob.ru/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -44,7 +44,7 @@ for ($i = 0; $i < 6; $i++) {
 <body>
 <div id="background">
     <div class="logo">
-        <a href="/"><img src="http://igry-spanch-bob.ru/images/6.png" /></a>
+        <a href="/"><img src="http://www.igry-spanch-bob.ru/images/6.png" /></a>
     </div>
     <div class="content">
         <!-- <noindex> -->
@@ -56,7 +56,7 @@ for ($i = 0; $i < 6; $i++) {
             <div class="top5">
                 <p>ПОПУЛЯРНЫЕ ИГРЫ</p><hr />
                 <?php foreach($tops as $top): ?>
-                    <p><a href="<?php echo "http://igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="http://igry-spanch-bob.ru/images/<?php echo $top['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $top['title']; ?>. Губка боб игры онлайн" title="Игра Спанч Боб - <?php echo $top['title']; ?>" width="188" height="140" />
+                    <p><a href="<?php echo "http://www.igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $top['title'])))).".php"; ?>"><img src="http://www.igry-spanch-bob.ru/images/<?php echo $top['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $top['title']; ?>. Губка боб игры онлайн" title="Игра Спанч Боб - <?php echo $top['title']; ?>" width="188" height="140" />
                             <?php echo $top['title']; ?></a>
                     </p>
                 <?php endforeach; ?>
@@ -68,7 +68,7 @@ for ($i = 0; $i < 6; $i++) {
         <!-- </noindex> -->
         <div class="main">
             <div class="one_game">
-                <img src="http://igry-spanch-bob.ru/images/img14.jpg" alt="Играть в Губка Боб - Пираты. Играть в игру Спанч Боб - Пираты" width="311" height="250" align="left"/>
+                <img src="http://www.igry-spanch-bob.ru/images/img14.jpg" alt="Играть в Губка Боб - Пираты. Играть в игру Спанч Боб - Пираты" width="311" height="250" align="left"/>
                 <h1>Пираты</h1><hr />
                 <p>Губка Боб пираты - это одна из лучших игр со Спанч Бобом и играть в нее вам обязательно понравится, так как вас ждет непростая битва на просторах морей и океанов. Играйте хитро и  расставляйте свои боевые корабли так, чтоб их не мог найти противник. В качестве подводных мин в игре Губка Боб пираты будут использоваться медузы и количество их строго ограничено.
                     Для того, чтоб начать - нужно совершить одно действие - нажать кнопку старт, выбрать цвет медуз для атаки, расставить свои корабли на игровом поле и начать эту непростую баталию. Победителем станет тот игрок, который первым сможет отыскать все корабли противника на игровом поле и уничтожить их. Игра вам обязательно понравится и для того, чтоб вам было интересней, предложите сразиться лучшего друга и тогда вы узнаете, кто хитрей и кто сильней в этом пиратском мире. Губка Боб пираты вам обязательно понравится!</p><hr />
@@ -81,7 +81,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="http://igry-spanch-bob.ru/images/<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" title="Игра Спанч Боб - <?php echo $item['title']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://www.igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="http://www.igry-spanch-bob.ru/images/<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" title="Игра Спанч Боб - <?php echo $item['title']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>

@@ -33,7 +33,7 @@ for ($i = 0; $i < 6; $i++) {
     <meta name="keywords" content="онлайн игра спнач боб Хэллоуин, онлайн игра губка боб Хэллоуин, играть губка боб приключения онлайн бесплатно">
 
     <link rel="stylesheet" type="text/css" href="/views/style.css" />
-    <link rel="shortcut icon" href="http://igry-spanch-bob.ru/favicon2.2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="http://www.igry-spanch-bob.ru/favicon2.2.png" type="image/x-icon">
     <style type="text/css">
         .game {
             margin-top: 0px;
@@ -44,12 +44,12 @@ for ($i = 0; $i < 6; $i++) {
 <body>
 <div id="background">
     <div class="logo">
-        <a href="/"><img src="http://igry-spanch-bob.ru/images/6.png" /></a>
+        <a href="/"><img src="http://www.igry-spanch-bob.ru/images/6.png" /></a>
     </div>
     <div class="content">
         <div class="main">
             <div class="one_game" style="width: 925px;">
-                <img src="http://igry-spanch-bob.ru/images/img13.jpg" alt="Играть в Губка Боб - Хэллоуин. Играть в игру Спанч Боб - Хэллоуин" width="311" height="250" align="left"/>
+                <img src="http://www.igry-spanch-bob.ru/images/img13.jpg" alt="Играть в Губка Боб - Хэллоуин. Играть в игру Спанч Боб - Хэллоуин" width="311" height="250" align="left"/>
                 <h1>Спанч Боб Хэллоуин</h1><hr />
                 <p>Непростая задача стоит перед главными героями игры Спанч Боб Хэллоуин. Известный всем смелый и отважный Губка Боб со своими друзьями отправились в старинный заколдованный замок, полный привидений и основная их задача расправиться со всей нечистью в канун хэллоуина, которая тут живет. Вам придется бродить по нескольким этажам замка, открывать множество запертых дверей, разгадывать тайны и головоломки замка. И все это лишь для того, чтоб очистить это старинное место от привидений. В вашем распоряжении будет специальное оружие для ловли привидений, сделанное как раз в этот хэллоуинский день, и колба для их сбора. Одевайте защитный скафандр и вперед, на охоту за нечистью. Не думайте, что играть будет легко, так как в любой момент на вас из-за угла может напасть злое чудище. Не бойтесь его, ловите и продолжайте выполнение этой непростой миссии. Играйте в игру Спанч Боб Хэллоуин и победите все зло, живущее в старинном замке.</p><hr />
                 <div class="game_window" style="margin-left: -20px;">
@@ -61,7 +61,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Другие игры</h1>
                 <?php foreach ($result as $item): ?>
                     <div class="game">
-                        <a href="<?php echo "http://igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="http://igry-spanch-bob.ru/images/<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" title="Игра Спанч Боб - <?php echo $item['title']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
+                        <a href="<?php echo "http://www.igry-spanch-bob.ru/games/".strtolower(translit(implode('_', explode(' ', $item['title'])))).".php"; ?>"><img src="http://www.igry-spanch-bob.ru/images/<?php echo $item['img']; ?>" alt="Игры спанч боб играть бесплатно. Игра спанч боб играть. Игры спанч боб бесплатно. Играть в Губка Боб - <?php echo $item['title']; ?>. Губка боб игры онлайн" title="Игра Спанч Боб - <?php echo $item['title']; ?>" width="188" height="140" align="left" /><h2><?php echo $item['title']; ?></h2></a><hr />
                         <p><?php echo $item['little_description']; ?></p>
                     </div>
                 <?php endforeach; ?>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6861d829-0ed9-4e14-8a17-d688f9975b68" name="Default" comment="Картинки в &quot;другие игры&quot;">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+    <list default="true" id="6861d829-0ed9-4e14-8a17-d688f9975b68" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions/edit_img.php" afterPath="$PROJECT_DIR$/functions/edit_img.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/angry_bob.php" afterPath="$PROJECT_DIR$/games/angry_bob.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/beysbol.php" afterPath="$PROJECT_DIR$/games/beysbol.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/bouling_v_bikini_bottom.php" afterPath="$PROJECT_DIR$/games/bouling_v_bikini_bottom.php" />
@@ -37,6 +38,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/spanch_bob_v_panike.php" afterPath="$PROJECT_DIR$/games/spanch_bob_v_panike.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/games/v_poiskah_geri.php" afterPath="$PROJECT_DIR$/games/v_poiskah_geri.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/pattern.php" afterPath="$PROJECT_DIR$/views/pattern.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/style.css" afterPath="$PROJECT_DIR$/views/style.css" />
     </list>
     <ignored path="SpanchBob.cqp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +60,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="angry_bob.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/games/angry_bob.php">
+      <file leaf-file-name="gubka_bob_gotovit_gamburgery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/games/gubka_bob_gotovit_gamburgery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
+            <state relative-caret-position="530">
+              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gonka_na_lodke.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/games/gonka_na_lodke.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="futbolnye_sorevnovaniya.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/games/futbolnye_sorevnovaniya.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -70,18 +93,63 @@
       <file leaf-file-name="dayver.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/games/dayver.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="58" column="224" selection-start-line="58" selection-start-column="154" selection-end-line="58" selection-end-column="224" />
+            <state relative-caret-position="530">
+              <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beysbol.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cchastlivoe_roghdestvo_gubki_boba.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/games/cchastlivoe_roghdestvo_gubki_boba.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bouling_v_bikini_bottom.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/games/bouling_v_bikini_bottom.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beysbol.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/games/beysbol.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="58" column="154" selection-start-line="58" selection-start-column="154" selection-end-line="58" selection-end-column="154" />
+            <state relative-caret-position="120">
+              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angry_bob.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/games/angry_bob.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="63" column="177" selection-start-line="63" selection-start-column="177" selection-end-line="63" selection-end-column="177" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#5534#5540#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -90,66 +158,8 @@
       <file leaf-file-name="edit_img.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/edit_img.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
+            <state relative-caret-position="218">
               <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="58" column="474" selection-start-line="58" selection-start-column="474" selection-end-line="58" selection-end-column="474" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="v_poiskah_geri.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/games/v_poiskah_geri.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="82" column="456" selection-start-line="82" selection-start-column="315" selection-end-line="82" selection-end-column="456" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/DB.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding>
-                <marker date="1474851401349" expanded="true" signature="504:568" ph="INSERT INTO games... " />
-                <marker date="1474851401349" expanded="true" signature="669:705" ph="SELECT views... images" />
-                <marker date="1474851401349" expanded="true" signature="669:706" ph="SELECT views... images" />
-                <marker date="1474851401349" expanded="true" signature="669:710" ph="SELECT views... images" />
-                <marker date="1474851401349" expanded="true" signature="669:721" ph="SELECT views... games" />
-                <marker date="1474851401349" expanded="true" signature="669:722" ph="SELECT views... images" />
-                <marker date="1474851401349" expanded="true" signature="962:1033" ph="UPDATE `imag... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spanch_bob_v_panike.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/games/spanch_bob_v_panike.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -189,43 +199,43 @@
         <option value="$PROJECT_DIR$/games/unichtoghitel_ulitok.php" />
         <option value="$PROJECT_DIR$/games/spanch_bob_big_adv.php" />
         <option value="$PROJECT_DIR$/views/style.css" />
-        <option value="$PROJECT_DIR$/games/v_poiskah_geri.php" />
-        <option value="$PROJECT_DIR$/games/spanch_bob_v_panike.php" />
-        <option value="$PROJECT_DIR$/games/spanch_bob_protiv_zla.php" />
-        <option value="$PROJECT_DIR$/games/spanch_bob_i_podvodnyy_beysbol.php" />
-        <option value="$PROJECT_DIR$/games/spanch_bob_bolshie_priklyucheniya.php" />
-        <option value="$PROJECT_DIR$/games/spanch_bob_-_privet_bikinni_bottom.php" />
-        <option value="$PROJECT_DIR$/games/sneghnaya_lavina.php" />
-        <option value="$PROJECT_DIR$/games/skvidvard_-_karatist.php" />
-        <option value="$PROJECT_DIR$/games/shopping_vmeste_s_gubkoy.php" />
-        <option value="$PROJECT_DIR$/games/sherif_dikogo_zapada.php" />
-        <option value="$PROJECT_DIR$/games/puteshestviya_skvoz_opasnost.php" />
-        <option value="$PROJECT_DIR$/games/puteshestvie_spanch_boba_i_ego_druzey.php" />
-        <option value="$PROJECT_DIR$/games/prizrachnyy_korabl.php" />
-        <option value="$PROJECT_DIR$/games/priklyucheniya_na_vertolete.php" />
-        <option value="$PROJECT_DIR$/games/poka_patrik_spit.php" />
-        <option value="$PROJECT_DIR$/games/podvodnye_priklyucheniya.php" />
-        <option value="$PROJECT_DIR$/games/piraty.php" />
-        <option value="$PROJECT_DIR$/games/patrika_atakuyut.php" />
-        <option value="$PROJECT_DIR$/games/patrik_vs_spanch.php" />
-        <option value="$PROJECT_DIR$/games/magicheskie_zelya.php" />
-        <option value="$PROJECT_DIR$/games/luchnik.php" />
-        <option value="$PROJECT_DIR$/games/klony_spanch_boba.php" />
-        <option value="$PROJECT_DIR$/games/kamennyy_zamok_ii.php" />
-        <option value="$PROJECT_DIR$/games/kamennyy_zamok.php" />
-        <option value="$PROJECT_DIR$/games/gubka_bob_mylnye_puzyri.php" />
-        <option value="$PROJECT_DIR$/games/gubka_bob_gotovit_gamburgery.php" />
-        <option value="$PROJECT_DIR$/games/gonka_na_lodke.php" />
-        <option value="$PROJECT_DIR$/games/futbolnye_sorevnovaniya.php" />
-        <option value="$PROJECT_DIR$/games/dayver.php" />
-        <option value="$PROJECT_DIR$/games/cchastlivoe_roghdestvo_gubki_boba.php" />
-        <option value="$PROJECT_DIR$/games/bouling_v_bikini_bottom.php" />
-        <option value="$PROJECT_DIR$/functions/edit_img.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/functions/DB.php" />
-        <option value="$PROJECT_DIR$/games/beysbol.php" />
+        <option value="$PROJECT_DIR$/games/bouling_v_bikini_bottom.php" />
+        <option value="$PROJECT_DIR$/games/cchastlivoe_roghdestvo_gubki_boba.php" />
+        <option value="$PROJECT_DIR$/games/dayver.php" />
+        <option value="$PROJECT_DIR$/games/futbolnye_sorevnovaniya.php" />
+        <option value="$PROJECT_DIR$/games/gonka_na_lodke.php" />
+        <option value="$PROJECT_DIR$/games/gubka_bob_gotovit_gamburgery.php" />
+        <option value="$PROJECT_DIR$/games/gubka_bob_mylnye_puzyri.php" />
+        <option value="$PROJECT_DIR$/games/kamennyy_zamok.php" />
+        <option value="$PROJECT_DIR$/games/kamennyy_zamok_ii.php" />
+        <option value="$PROJECT_DIR$/games/klony_spanch_boba.php" />
+        <option value="$PROJECT_DIR$/games/luchnik.php" />
+        <option value="$PROJECT_DIR$/games/magicheskie_zelya.php" />
+        <option value="$PROJECT_DIR$/games/patrik_vs_spanch.php" />
+        <option value="$PROJECT_DIR$/games/patrika_atakuyut.php" />
+        <option value="$PROJECT_DIR$/games/piraty.php" />
+        <option value="$PROJECT_DIR$/games/podvodnye_priklyucheniya.php" />
+        <option value="$PROJECT_DIR$/games/poka_patrik_spit.php" />
+        <option value="$PROJECT_DIR$/games/priklyucheniya_na_vertolete.php" />
+        <option value="$PROJECT_DIR$/games/prizrachnyy_korabl.php" />
+        <option value="$PROJECT_DIR$/games/puteshestvie_spanch_boba_i_ego_druzey.php" />
+        <option value="$PROJECT_DIR$/games/puteshestviya_skvoz_opasnost.php" />
+        <option value="$PROJECT_DIR$/games/sherif_dikogo_zapada.php" />
+        <option value="$PROJECT_DIR$/games/shopping_vmeste_s_gubkoy.php" />
+        <option value="$PROJECT_DIR$/games/skvidvard_-_karatist.php" />
+        <option value="$PROJECT_DIR$/games/sneghnaya_lavina.php" />
+        <option value="$PROJECT_DIR$/games/spanch_bob_-_privet_bikinni_bottom.php" />
+        <option value="$PROJECT_DIR$/games/spanch_bob_bolshie_priklyucheniya.php" />
+        <option value="$PROJECT_DIR$/games/spanch_bob_protiv_zla.php" />
+        <option value="$PROJECT_DIR$/games/spanch_bob_i_podvodnyy_beysbol.php" />
+        <option value="$PROJECT_DIR$/games/spanch_bob_v_panike.php" />
+        <option value="$PROJECT_DIR$/games/v_poiskah_geri.php" />
         <option value="$PROJECT_DIR$/views/index.php" />
+        <option value="$PROJECT_DIR$/functions/edit_img.php" />
         <option value="$PROJECT_DIR$/games/angry_bob.php" />
+        <option value="$PROJECT_DIR$/games/beysbol.php" />
       </list>
     </option>
   </component>
@@ -477,7 +487,7 @@
       <workItem from="1473967956661" duration="10869000" />
       <workItem from="1474367078774" duration="5486000" />
       <workItem from="1474564974508" duration="7047000" />
-      <workItem from="1474640948411" duration="14999000" />
+      <workItem from="1474640948411" duration="18412000" />
     </task>
     <task id="LOCAL-00001" summary="Ещё одни файлы))">
       <created>1471649474964</created>
@@ -654,11 +664,46 @@
       <option name="project" value="LOCAL" />
       <updated>1475001995412</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="тайтлы к картинкам на главной странице и на всех страницах &quot;другие игры&quot;">
+      <created>1475007328202</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1475007328202</updated>
+    </task>
+    <task id="LOCAL-00027" summary="тайтлы к картинкам из секции популярных игр">
+      <created>1475007464822</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1475007464822</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Поставлен счеткчик на главную страницу">
+      <created>1475048360004</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1475048360004</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Поставлен счеткчик на все остальные страницы">
+      <created>1475048932421</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1475048932421</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Небольшие косметические изменения, связанные с установкой счетчика">
+      <created>1475049025827</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1475049025827</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165576000" />
+    <option name="totallyTimeSpent" value="168989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -696,9 +741,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ещё одни файлы))" />
-    <MESSAGE value="Добавление авторизации админа" />
-    <MESSAGE value="Удалены повторяющиеся и ненужные проверки." />
     <MESSAGE value="Добавлена возможность редактирования.                                                             Стало возможно отредактировать такие поля, как: Изображение, Название, Дата публикации. С сохранением новых значений в БД. Осталось разобраться с описанием и вставкой html-кода. И редактирование будет завершено до конца." />
     <MESSAGE value="Все функции редактирования доделаны." />
     <MESSAGE value="&quot;Добавить игру&quot; теперь работает, коряво, но всё же. Дальше ищем ошибки" />
@@ -719,7 +761,12 @@
     <MESSAGE value="Более-менее рабочая версия" />
     <MESSAGE value="Картинки в &quot;другие игры&quot;" />
     <MESSAGE value="Картинки в &quot;популярные игры&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Картинки в &quot;популярные игры&quot;" />
+    <MESSAGE value="тайтлы к картинкам на главной странице и на всех страницах &quot;другие игры&quot;" />
+    <MESSAGE value="тайтлы к картинкам из секции популярных игр" />
+    <MESSAGE value="Поставлен счеткчик на главную страницу" />
+    <MESSAGE value="Поставлен счеткчик на все остальные страницы" />
+    <MESSAGE value="Небольшие косметические изменения, связанные с установкой счетчика" />
+    <option name="LAST_COMMIT_MESSAGE" value="Небольшие косметические изменения, связанные с установкой счетчика" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -797,246 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/spanch_bob_protiv_zla.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/spanch_bob_i_podvodnyy_beysbol.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/spanch_bob_bolshie_priklyucheniya.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="33" column="93" selection-start-line="33" selection-start-column="93" selection-end-line="33" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/spanch_bob_-_privet_bikinni_bottom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/sneghnaya_lavina.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/skvidvard_-_karatist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/shopping_vmeste_s_gubkoy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/sherif_dikogo_zapada.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/puteshestviya_skvoz_opasnost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/puteshestvie_spanch_boba_i_ego_druzey.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/prizrachnyy_korabl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/priklyucheniya_na_vertolete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/poka_patrik_spit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/podvodnye_priklyucheniya.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/piraty.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/patrika_atakuyut.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/patrik_vs_spanch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/magicheskie_zelya.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/luchnik.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/klony_spanch_boba.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/kamennyy_zamok_ii.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/gonka_na_lodke.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/futbolnye_sorevnovaniya.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/bouling_v_bikini_bottom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/cchastlivoe_roghdestvo_gubki_boba.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/gubka_bob_gotovit_gamburgery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/gubka_bob_mylnye_puzyri.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/kamennyy_zamok.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/edit_img.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/games/spanch_bob_v_panike.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="35" column="93" selection-start-line="35" selection-start-column="93" selection-end-line="35" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1061,43 +868,288 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/dayver.php">
+    <entry file="file://$PROJECT_DIR$/games/v_poiskah_geri.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="58" column="224" selection-start-line="58" selection-start-column="154" selection-end-line="58" selection-end-column="224" />
+        <state relative-caret-position="530">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/beysbol.php">
+    <entry file="file://$PROJECT_DIR$/games/spanch_bob_v_panike.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="58" column="154" selection-start-line="58" selection-start-column="154" selection-end-line="58" selection-end-column="154" />
+        <state relative-caret-position="530">
+          <caret line="104" column="8" selection-start-line="104" selection-start-column="8" selection-end-line="104" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/spanch_bob_protiv_zla.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/spanch_bob_i_podvodnyy_beysbol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/spanch_bob_bolshie_priklyucheniya.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/spanch_bob_-_privet_bikinni_bottom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/sneghnaya_lavina.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/skvidvard_-_karatist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/shopping_vmeste_s_gubkoy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/sherif_dikogo_zapada.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/puteshestviya_skvoz_opasnost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/puteshestvie_spanch_boba_i_ego_druzey.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/prizrachnyy_korabl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/priklyucheniya_na_vertolete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/poka_patrik_spit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/podvodnye_priklyucheniya.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/piraty.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/patrika_atakuyut.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/patrik_vs_spanch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/magicheskie_zelya.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/luchnik.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/klony_spanch_boba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/kamennyy_zamok_ii.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/kamennyy_zamok.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/gubka_bob_mylnye_puzyri.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/gubka_bob_gotovit_gamburgery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/gonka_na_lodke.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/futbolnye_sorevnovaniya.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/dayver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="103" column="8" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/cchastlivoe_roghdestvo_gubki_boba.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/bouling_v_bikini_bottom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="58" column="474" selection-start-line="58" selection-start-column="474" selection-end-line="58" selection-end-column="474" />
+        <state relative-caret-position="306">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/games/v_poiskah_geri.php">
+    <entry file="file://$PROJECT_DIR$/functions/edit_img.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="82" column="456" selection-start-line="82" selection-start-column="315" selection-end-line="82" selection-end-column="456" />
+        <state relative-caret-position="218">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/games/angry_bob.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="78" column="7" selection-start-line="78" selection-start-column="7" selection-end-line="78" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="63" column="177" selection-start-line="63" selection-start-column="177" selection-end-line="63" selection-end-column="177" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#5534#5540#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/games/beysbol.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,14 +1,14 @@
 
 
 body {
-    background-image: url('http://igry-spanch-bob.ru/images/background1.png');
+    background-image: url('http://www.igry-spanch-bob.ru/images/background1.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:  100%;
 }
 
 #background {
-    background: url('http://igry-spanch-bob.ru/images/background-lilies1.png') space;
+    background: url('http://www.igry-spanch-bob.ru/images/background-lilies1.png') space;
 }
 
 .logo {
@@ -83,7 +83,7 @@ a {
 }
 
 .gubka {
-    background-image: url('http://igry-spanch-bob.ru/images/sponge-bob.png');
+    background-image: url('http://www.igry-spanch-bob.ru/images/sponge-bob.png');
     background-repeat: no-repeat;
     position: absolute;
     width: 150px;
