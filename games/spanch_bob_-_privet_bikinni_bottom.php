@@ -7,19 +7,15 @@ add_in_db_view('Спанч Боб - привет Бикинни Боттом');
 $tops = top_games();
 $all_games = homepage_games();
 
-
-for ($i = 0; $i < 6; $i++) {
-    while (true) {
-        $rand_game = $all_games[rand(0, count($all_games))];
-        if (empty($result)) {
-            $result[] = $rand_game;
-            break;
-        } elseif ($result['title'] == $rand_game['title']) {
-            continue;
-        } else {
-            $result[] = $rand_game;
-            break;
-        }
+$rand_game = $all_games[rand(0, count($all_games)-1)];
+if (empty($result)) {
+    $result[] = $rand_game;
+}
+while (true) {
+    if (count($result) > 5) break;
+    $rand_game = $all_games[rand(0, count($all_games)-1)];
+    if (!in_array($rand_game, $result, true)) {
+        $result[] = $rand_game;
     }
 }
 ?>

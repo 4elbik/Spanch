@@ -7,19 +7,15 @@ add_in_db_view('Патрика Атакуют');
 $tops = top_games();
 $all_games = homepage_games();
 
-
-for ($i = 0; $i < 6; $i++) {
-    while (true) {
-        $rand_game = $all_games[rand(0, count($all_games))];
-        if (empty($result)) {
-            $result[] = $rand_game;
-            break;
-        } elseif ($result['title'] == $rand_game['title']) {
-            continue;
-        } else {
-            $result[] = $rand_game;
-            break;
-        }
+$rand_game = $all_games[rand(0, count($all_games)-1)];
+if (empty($result)) {
+    $result[] = $rand_game;
+}
+while (true) {
+    if (count($result) > 5) break;
+    $rand_game = $all_games[rand(0, count($all_games)-1)];
+    if (!in_array($rand_game, $result, true)) {
+        $result[] = $rand_game;
     }
 }
 ?>
@@ -72,7 +68,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Патрика Атакуют</h1><hr />
                 <p>Ну никак Патрик не может справится с нашествием этих страшных, серых и надоедливых улиток. Как бы он ни старался от них избавиться, их численность увеличивается. Теперь всё больше и больше становится этих злых улиток. Вы должны помочь главному герою очистить дом от этих слизистых насекомых. Но сделать это будет достаточно трудно, так как с каждым новым уровнем их будет все больше и больше, а места чтоб укрыться совсем мало. В вашем распоряжении будет специальный раствор, который усыпляет улиток. Вот именно его и надо будет использовать для очистки дома Патрика. Но будьте осторожны и внимательны, так как не всех улиток усыпляет такой раствор. Те, которые с черным панцирем, будут засыпать лишь на несколько секунд. Вы обязательно должны расправится со всеми улитками, которые будут бегать по дому главного героя. Играйте в игру Атака улиток на Патрика и получайте массу удовольствия от такой необычной, но очень увлекательной игры.  </p><hr />
                 <div class="game_window">
-                    <iframe src="http://www.nick.com/games/data/spongebob/spongebob-squarepants-snail-a-salt/spongebob_virtual_boy_loader.swf" width="725" height="377"></iframe>
+                    <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/spongebob-squarepants-snail-a-salt/spongebob_virtual_boy_loader.swf?adloader=true&amp;config=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fspongebob-squarepants-snail-a-salt%2Fxml%2Fconfig.xml&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fspongebob-squarepants-snail-a-salt%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="725" height="377" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/spongebob-squarepants-snail-a-salt/"><param name="wmode" value="transparent"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="adloader=true&amp;config=http://www.nick.com/games/data/spongebob/spongebob-squarepants-snail-a-salt/xml/config.xml&amp;base=http://www.nick.com/games/data/spongebob/spongebob-squarepants-snail-a-salt/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
             <!-- <noindex> -->

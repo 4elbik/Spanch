@@ -7,19 +7,15 @@ add_in_db_view('Снежная лавина');
 $tops = top_games();
 $all_games = homepage_games();
 
-
-for ($i = 0; $i < 6; $i++) {
-    while (true) {
-        $rand_game = $all_games[rand(0, count($all_games))];
-        if (empty($result)) {
-            $result[] = $rand_game;
-            break;
-        } elseif ($result['title'] == $rand_game['title']) {
-            continue;
-        } else {
-            $result[] = $rand_game;
-            break;
-        }
+$rand_game = $all_games[rand(0, count($all_games)-1)];
+if (empty($result)) {
+    $result[] = $rand_game;
+}
+while (true) {
+    if (count($result) > 5) break;
+    $rand_game = $all_games[rand(0, count($all_games)-1)];
+    if (!in_array($rand_game, $result, true)) {
+        $result[] = $rand_game;
     }
 }
 ?>
@@ -72,7 +68,7 @@ for ($i = 0; $i < 6; $i++) {
                 <h1>Снежная лавина</h1><hr />
                 <p>В этой версии игры Губка Боб выполняет роль спасателя. По снежной горе, ему нужно, как можно дальше убежать от наступающей снежной лавины. Предотвратить этот путь могут, встречающиеся на пути дома, деревья и трамплины. Губка Боб в этой игре может спасти от лавины не только себя, но и своих любимых друзей. Чтобы это сделать, необходимо максимально приблизить к своему и прицепить его сзади себя. Далее, друзья предотвращают путь все вместе. Стоит быть осторожным, ведь от внимательности, зависит жизнь многих персонажей. Игра состоит из нескольких уровней. С каждым новым этапом увеличивается скорость и появляется все больше препятствий.</p><hr />
                 <div class="game_window">
-                    <iframe src="http://www.nick.com/games/data/spongebob/sb_avalanche/SpongebobAvalanche.swf" width="725" height="363"></iframe>
+                    <object type="application/x-shockwave-flash" name="game-play-container" data="http://www.nick.com/games/data/spongebob/sb_avalanche/SpongebobAvalanche.swf?wmodeOverride=direct&amp;adloader=true&amp;base=http%3A%2F%2Fwww.nick.com%2Fgames%2Fdata%2Fspongebob%2Fsb_avalanche%2F&amp;gameName=Fun+Game+Title&amp;gameURI=&amp;adfree=false" width="725" height="363" id="game-play-container" style="visibility: visible;"><param name="base" value="http://www.nick.com/games/data/spongebob/sb_avalanche/"><param name="wmode" value="direct"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="flashvars" value="wmodeOverride=direct&amp;adloader=true&amp;base=http://www.nick.com/games/data/spongebob/sb_avalanche/&amp;gameName=Fun Game Title&amp;gameURI=&amp;adfree=false"></object>
                 </div>
             </div><hr />
             <!-- <noindex> -->
