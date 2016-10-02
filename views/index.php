@@ -9,6 +9,8 @@ require_once __DIR__ . '/../functions/DB.php';
 <head>
     <meta charset="utf-8" />
     <title>Игры Спанч Боб | Игры Боб | Играть Губка Боб | Флеш игры Губка Боб</title>
+    <meta name="description" content="Приветствуем Вас, любители бесплатных онлайн игр! Всеобщий любимец Спанч Боб снова с вами и готов к новым приключениям! Не для кого не секрет, что Губка Боб Квадратные Штаны очень любит попадать в разного рода неприятности и зачастую с ним оказывается его лучший друг – Патрик. И вместе они преодолевают множество приключений.. Так присоединись и помоги им!" />
+    <meta name="keywords" content="игры спанч боб, играть губка боб, флеш игры спанч боб, спанч боб онлайн игры, губка боб флеш игры, спанч боб игры онлайн без регистрации" />
     <link rel="stylesheet" href="/views/style.css" type="text/css" />
     <link rel="shortcut icon" href="http://www.igry-spanch-bob.ru/favicon2.2.png" type="image/x-icon">
     <meta name="yandex-verification" content="20af2ae9305f2b53" />
